@@ -33,7 +33,7 @@ You will reuse this in later weeks. So do it properly once.
 
 ## Answer
 
-Add your answer here...
+One belief I hold that many people around me disagree with is this: I don't believe in destiny. I believe our lives are shaped far more by the choices we make than by a future that has already been written. Every decision we make opens one door and closes another. While we can't control every circumstance, we can control how we respond to them. To me, the future isn't something we discover, it's something we create through consistent actions, personal responsibility, and the courage to choose differently.
 
 ---
 
@@ -55,11 +55,11 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Action creates opportunities
 
 ### Evidence from my life
 
-Add your answer here...
+i have waited for the "right time" all my life which rarely changed nothing. Most of the opportunities I've received came after I started taking action, sharing my work, and putting myself out there on linkedin
 
 ---
 
@@ -67,11 +67,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Every decision has a cost
 
 ### Evidence from my life
 
-Add your answer here...
+My dad always says "whether you choose to act or choose to wait, you're still making a decision. Every choice leads to a different outcome, and accepting responsibility for those choices is what ultimately shapes your future" that has lived with me
 
 ---
 
@@ -79,11 +79,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+Consistency beats talent
 
 ### Evidence from my life
 
-Add your answer here...
+I've seen that showing up every day, even imperfectly, produces better results than relying on natural ability alone. The people who keep improving eventually outperform those who only depend on talent.
 
 ---
 
@@ -135,7 +135,71 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+If everything I've been working toward becomes reality, my 2.0 version won't just have a better job title or more certifications.
+
+He'll have something far more valuable.
+
+Trust.
+
+He'll be the person founders think about before launching their product, not after it crashes.
+
+The engineer companies bring into conversations early because they understand that building technology is one challenge, but building it to scale, stay secure, and survive real users is another.
+
+He won't simply automate deployments.
+
+He'll build confidence.
+
+Confidence that every deployment is repeatable.
+
+Confidence that every cloud environment is secure.
+
+Confidence that businesses can grow without worrying whether their infrastructure will fail under pressure.
+
+By then, DevOps won't just be a career.
+
+It will be the language through which he solves business problems.
+
+His LinkedIn won't just be a portfolio of certificates.
+
+It will be a library of lessons.
+
+A place where students discover opportunities, founders gain clarity, and engineers learn from real-world experiences instead of textbook definitions.
+
+He'll still explain technical concepts the same way he does today—with stories, analogies, and simple words—because he'll remember what it felt like to be a beginner.
+
+People won't follow him because of algorithms.
+
+They'll follow him because they leave every conversation understanding something they didn't understand before.
+
+His GitHub will showcase solutions instead of experiments.
+
+His cloud projects will support real businesses.
+
+His automation pipelines will save teams hours of manual work.
+
+His security practices will prevent problems most people never even notice.
+
+More importantly, he'll become known for something that can't be listed on a résumé:
+
+Making complex things feel simple.
+
+Helping people make better technical decisions.
+
+Building systems that quietly do their job while businesses focus on theirs.
+
+Looking back, he'll realize there was never a single moment that changed everything.
+
+No destiny.
+
+No lucky break.
+
+Just thousands of small decisions repeated consistently over time.
+
+And that will be the greatest proof of the belief he's always held:
+
+The future isn't something we wait for.
+
+It's something we build—one decision, one project, one lesson, and one person helped at a time.
 
 ### Public Link
 
@@ -173,7 +237,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+I haven't cut corners
 
 ---
 
@@ -199,16 +263,45 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. Atomic Habits — James Clear
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-01.jpg)
+
+2. Deep Work — Cal Newport
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-02.jpg)
+
+3. The Psychology of Money — Morgan Housel
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-03.jpg)
+
+4. The 7 Habits of Highly Effective People — Stephen R. Covey
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-04.jpg)
+
+5. How to Win Friends and Influence People — Dale Carnegie
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-05.jpg)
+
+6. The Phoenix Project — Gene Kim, Kevin Behr & George Spafford
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-06.jpg)
+
+7. The DevOps Handbook — Gene Kim, Jez Humble, Patrick Debois & John Willis
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-07.jpg)
+
+8. Cloud Computing with AWS - Pravin Mishra
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-08.jpg)
+
+9. The First 90 Days — Michael D. Watkins
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-09.jpg)
+
+10. The Almanack of Naval Ravikant — Eric Jorgenson
+
+![Assignment 5 Screenshot](screenshots/week-01-screenshot-10.jpg)
 
 ---
 
@@ -237,16 +330,16 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+* Financial Growth
+* Sleep hours
+* Teaching & Mentorship Impact
+* Personal Discipline
+* Health & Fitness
+* Projects Completed
+* Time with family
+* Network Growth
+* Professional Certifications
+* Content Consistency
 
 ---
 
@@ -270,9 +363,15 @@ Examples:
 
 **Yes / No**
 
-Answer:
+Answer: Yes
 
-Add your answer here...
+* Financial status
+* Marriage
+* Family responsibility
+* Health issues
+* Loan issues
+* Inferiority complex
+* Societal pressure
 
 ---
 
@@ -290,7 +389,13 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+* Mon- Reflection of weekend learning
+* Tue - 8 hours intense reading
+* Wed - Still 8 hours intense reading
+* Thur - 8 hours intense reading
+* Friday - Rest
+* Sat - DMI session
+* Sunday - REVISION
 
 ---
 
@@ -298,11 +403,12 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+* DAYS - MON - THUR + SAT 
+* TIME - 10:00AM - 5:00PM
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+4 SESSIONS
 
 ---
 
@@ -316,7 +422,7 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+No social media while reading
 
 ---
 
@@ -324,15 +430,15 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I can be anything i put my mind to become
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+Doomscrolling on social media
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Waking up 4:00am to finish my morning chores and starting my intensive 8 hours study from 10:00am
 
 ### LinkedIn Post
 
