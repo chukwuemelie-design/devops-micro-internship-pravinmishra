@@ -133,7 +133,7 @@ Week 01 → Success Mindset
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_ive-just-completed-the-first-phase-of-my-activity-7448024751257579520-feL6? | — |
-| 01 | Success Mindset | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_this-post-is-my-gift-for-you-this-remaining-activity-7478311848367529984-IzUl?| — |
+| 01 | Success Mindset | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_this-post-is-my-gift-for-you-this-remaining-activity-7478311848367529984-IzUl?|https://medium.com/@chukwuemelieoguejiofor/destiny-didnt-build-my-future-my-decisions-did-3b8b33135571|
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
