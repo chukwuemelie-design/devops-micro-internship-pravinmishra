@@ -1,0 +1,2 @@
+Why does the cost optimizer use Haiku instead of Sonnet?
+Answer* Haiku is significantly cheaper to run, making it economical to process large volumes of data.

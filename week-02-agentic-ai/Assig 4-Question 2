@@ -1,0 +1,2 @@
+Why does the security auditor NOT have Write in its tools list?
+Answer* The Security Auditor typically does not have Write permissions because it follows the principle of least privilege, which is one of the core principles of cybersecurity

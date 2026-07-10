@@ -1,0 +1,3 @@
+Why does the tf-writer use inherit instead of a specific model?
+Answer* Code generation quality should match the overall intelligence of the system.
+If the orchestrator is using a stronger model, the generated Terraform should benefit from that same capability.
