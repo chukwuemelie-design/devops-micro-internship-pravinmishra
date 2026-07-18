@@ -255,10 +255,7 @@ Database: Structured data storage (MySQL/MongoDB).
 Onward to Week 2! 
 
 
-P.S. This post is part of the FREE DevOps Micro Internship Cohort run by Pravin Mishra. 
-
-You can start your DevOps journey for free from his YouTube Playlist.
-https://lnkd.in/etk8sSFQ
+**P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining [DMI waiting list](https://forms.gle/3hvrWJBDzsDeJoPs6) (https://forms.gle/3hvrWJBDzsDeJoPs6).**
 
 
 

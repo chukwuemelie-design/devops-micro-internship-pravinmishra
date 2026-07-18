@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![screenshot](screenshots/ASSIGNMENT-BLOG.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 
 Blog Link:
 
-`Add your URL here`
+
 
 ---
 
@@ -92,23 +92,52 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![screenshot](screenshots/ASSIGNMENT-LINKEDIN2.png)
 
 ---
 
 ### Submission Field
 
-LinkedIn Post Content (copy-paste here):
+My AI agent just remembered a project decision from a previous session
+
+
+Yesterday, we made a decision on a project.
+
+Today, I continued working.
+
+I think about how much time teams lose every day:
+
+• Re-explaining project decisions.
+• Rewriting the same instructions.
+• Rebuilding context after every session.
+
+Now imagine an AI agent that remembers previous decisions and continues from where you left off.
+
+That's not just convenient.
+
+It's productive.
+
+To me, this is what professional Agentic DevOps looks like.
+
+And honestly...
+
+I think we're only scratching the surface of what's possible with Pravin Mishra
+
+**P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining [DMI waiting list](https://forms.gle/3hvrWJBDzsDeJoPs6) (https://forms.gle/3hvrWJBDzsDeJoPs6).**
+
+© Dev King🧑‍🔧
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps
 
 ```
-Paste your LinkedIn post content here
+
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
+https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_dmibypravinmishra-agenticai-claudecode-activity-7481126360137191424-Bria?
 
 ---
 

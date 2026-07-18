@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-Add your screenshot here.
+![screenshot](screenshots/ASSIGNMENT-401.png)
 
 ---
 
@@ -34,19 +34,19 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
+![screenshot](screenshots/ASSIGNMENT-402.png)
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
+![screenshot](screenshots/ASSIGNMENT-403.png)
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
+![screenshot](screenshots/ASSIGNMENT-404.png)
 
 ---
 
@@ -54,13 +54,14 @@ Add your answer here...
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-Add your screenshot here.
+![screenshot](screenshots/ASSIGNMENT-405.png)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-Add your screenshot here.
+![screenshot](screenshots/ASSIGNMENT-406a.png)
+![screenshot](screenshots/ASSIGNMENT-406b.png)
 
 ---
 
@@ -74,13 +75,13 @@ Trigger the security auditor agent and analyze the generated security report for
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+
 
 ---
 
@@ -94,7 +95,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-Add your screenshot here.
+
 
 ---
 
@@ -108,9 +109,9 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
 
-`Add your URL here`
+
+
 
 ---
 
