@@ -413,7 +413,7 @@ The final Bash automation script combines multiple Bash concepts into a single w
 #### LinkedIn Post URL
 
 https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_assignment-8-bash-scripting-i-used-to-activity-7483385165348691968-dpwk?
-`Add your URL here`
+
 
 ---
 

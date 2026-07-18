@@ -36,19 +36,19 @@ Answer the following in your own words:
 
 **1. What proves that Nginx is running?**
 
-Add your answer here.
+
 
 ---
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
+
 
 ---
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
+
 
 ---
 
@@ -62,7 +62,7 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-Add your screenshot here.
+
 
 ---
 
@@ -72,19 +72,19 @@ Answer the following in your own words:
 
 **1. Why should Claude receive project-specific operational rules?**
 
-Add your answer here.
+
 
 ---
 
 **2. Why is the human required to execute the recovery command?**
 
-Add your answer here.
+
 
 ---
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
-Add your answer here.
+
 
 ---
 
@@ -98,7 +98,7 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
+
 
 ---
 
@@ -108,19 +108,19 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
+
 
 ---
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Add your answer here.
+
 
 ---
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Add your answer here.
+
 
 ---
 
@@ -162,31 +162,31 @@ Answer the following in your own words:
 
 **1. What is stored in the checks array?**
 
-Add your answer here.
+
 
 ---
 
 **2. How does the `for` loop use that array?**
 
-Add your answer here.
+
 
 ---
 
 **3. Why are the health checks separated into functions?**
 
-Add your answer here.
+
 
 ---
 
 **4. What is the purpose of `$(...)` in this script?**
 
-Add your answer here.
+
 
 ---
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-Add your answer here.
+
 
 ---
 
@@ -216,25 +216,25 @@ Answer the following in your own words:
 
 **1. What is the overall status of your healthy baseline?**
 
-Add your answer here.
+
 
 ---
 
 **2. Which exact Linux evidence proves the application is serving traffic?**
 
-Add your answer here.
+
 
 ---
 
 **3. Did your script return exit code 0 or 1? Explain why.**
 
-Add your answer here.
+
 
 ---
 
 **4. What is the difference between a warning and a failure in this script?**
 
-Add your answer here.
+
 
 ---
 
@@ -248,13 +248,13 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-Add your screenshot here.
+
 
 ---
 
@@ -264,25 +264,25 @@ Answer the following in your own words:
 
 **1. Why does this skill have Bash, Read, and Grep, but not Write?**
 
-Add your answer here.
+
 
 ---
 
 **2. Why is `disable-model-invocation: true` useful for this skill?**
 
-Add your answer here.
+
 
 ---
 
 **3. What part is performed by Bash, and what part is performed by Claude?**
 
-Add your answer here.
+
 
 ---
 
 **4. Why is this better than asking Claude "Is my server healthy?" without giving it evidence?**
 
-Add your answer here.
+
 
 ---
 
@@ -296,19 +296,19 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-Add your screenshot here.
+
 
 ---
 
@@ -318,31 +318,31 @@ Answer the following in your own words:
 
 **1. Which three checks failed?**
 
-Add your answer here.
+
 
 ---
 
 **2. What evidence supports the conclusion that Nginx is unavailable?**
 
-Add your answer here.
+
 
 ---
 
 **3. Did Claude execute the recovery command? Why is that important?**
 
-Add your answer here.
+
 
 ---
 
 **4. Which phase of the Agentic Loop is represented by the Bash report?**
 
-Add your answer here.
+
 
 ---
 
 **5. Which phase is represented by Claude's explanation?**
 
-Add your answer here.
+
 
 ---
 
@@ -356,25 +356,25 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-Add your screenshot here.
+
 
 ---
 
@@ -384,31 +384,30 @@ Answer the following in your own words:
 
 **1. What action did you execute manually?**
 
-Add your answer here.
+
 
 ---
 
 **2. What evidence proves that the service recovered?**
 
-Add your answer here.
+
 
 ---
 
 **3. Why is the second triage run necessary?**
 
-Add your answer here.
+
 
 ---
 
 **4. What could go wrong if an AI agent automatically restarted every failed service?**
 
-Add your answer here.
+
 
 ---
 
 **5. In one sentence, explain the difference between using AI as a chatbot and using AI in this agentic workflow.**
 
-Add your answer here.
 
 ---
 
@@ -416,51 +415,45 @@ Add your answer here.
 
 Fill in all seven sections below in your own words.
 
-**Full Name:** Add your full name here
+**Full Name:** Nebeolisa Chiemelie Kelvin
 
-**Date:** DD/MM/YYYY
+**Date:** 18/07/2026
 
 ---
 
 **1. Reported Symptom**
 
-Add your answer here.
+
 
 ---
 
 **2. Evidence Collected**
 
-Add your answer here.
 
 ---
 
 **3. Most Likely Cause**
 
-Add your answer here.
 
 ---
 
 **4. Human-Approved Recovery Action**
 
-Add your answer here.
 
 ---
 
 **5. Verification**
 
-Add your answer here.
 
 ---
 
 **6. Safety Decision**
 
-Add your answer here.
 
 ---
 
 **7. Agentic Loop Mapping**
 
-Add your answer here.
 
 ---
 
@@ -472,7 +465,7 @@ Add your answer here.
 
 https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_assignment-9-build-an-ai-assisted-linux-health-activity-7483653307937300480-A_n1?
 
-`Add your URL here`
+
 
 ---
 
@@ -486,7 +479,7 @@ https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_assignment-9-build-
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:https://github.com/chukwuemelie-design/devops-micro-internship-pravinmishra.git
 
-`Add your URL here`
+
 
 
 #  Reflection Blog
@@ -494,7 +487,7 @@ Paste the URL of your GitHub folder or repository containing the assignment file
 https://medium.com/@chukwuemelieoguejiofor/reflection-week-3-f3a249dc56e8
 
 
-`Add your URL here`
+
 
 # Submission Instructions
 

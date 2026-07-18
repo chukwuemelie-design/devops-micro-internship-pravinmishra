@@ -122,7 +122,6 @@ Verify the deployed website and Nginx service are healthy.
 
 https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_anyone-can-say-a-website-is-live-a-devops-activity-7483022824811597824-EWFP
 
-`Add your URL here`
 
 ---
 

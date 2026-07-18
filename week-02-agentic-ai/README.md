@@ -108,7 +108,7 @@ Screenshot 6 — Claude's /tf-plan response showing it ran the command and analy
 
 ## Task 4: LinkedIn Post
 
-**Post:** (https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_dmibypravinmishra-agenticai-claudecode-activity-7480848944240001024-_yx2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFkRTbwBQwNlgLe0f2iCwnfwUH4yLRQA4Y4)
+https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_dmibypravinmishra-agenticai-claudecode-activity-7480848944240001024-_yx2?
 
 
 ![Task 4](./screenshots/ASSIGNMENT%20LINKEDIN.png)

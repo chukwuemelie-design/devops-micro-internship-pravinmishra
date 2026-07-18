@@ -377,7 +377,7 @@ Cloud resources should be stopped or terminated when they are no longer needed t
 
 https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_this-week-during-my-devops-internship-one-ugcPost-7483188331170693120-i4qb/?
 
-`Add your URL here`
+
 
 ---
 
