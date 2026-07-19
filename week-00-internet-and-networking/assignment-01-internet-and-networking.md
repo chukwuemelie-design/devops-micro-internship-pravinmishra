@@ -29,7 +29,7 @@ Save your screenshot in the `screenshots` folder and update the file name below.
 ![Task 1 Screenshot](screenshots/week-00-02.png)
 
 
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
+
 
 ---
 
@@ -95,7 +95,7 @@ Save your diagram image in the `screenshots` folder and update the file name bel
 ![Application Architecture Diagram](screenshots/week-00-03.png)
 
 
-Replace `task-3-diagram.png` with your actual diagram file name.
+
 
 ---
 
@@ -189,7 +189,7 @@ Save your screenshot in the `screenshots` folder and update the file name below.
 ![VS Code Setup Screenshot](screenshots/week-00-04.png)
 
 
-Replace `task-5-vscode.png` with your actual screenshot file name.
+
 
 ---
 

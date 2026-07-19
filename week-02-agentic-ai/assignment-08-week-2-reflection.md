@@ -52,7 +52,7 @@ You can publish your blog on:
 
 ### Submission Field
 
-Blog Link:
+Blog Link: https://medium.com/@chukwuemelieoguejiofor/reflection-week-2-cbea007730bf
 
 
 
@@ -92,36 +92,62 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-![screenshot](screenshots/ASSIGNMENT-LINKEDIN2.png)
+![screenshot](screenshots/ASSIGNMENT-LINKEDIN3.png)
 
 ---
 
 ### Submission Field
 
-My AI agent just remembered a project decision from a previous session
+This week changed how I think about AI.
 
+I used to think AI was just another tool.
 
-Yesterday, we made a decision on a project.
+You ask a question.
 
-Today, I continued working.
+It gives an answer.
 
-I think about how much time teams lose every day:
+That's it.
 
-• Re-explaining project decisions.
-• Rewriting the same instructions.
-• Rebuilding context after every session.
+Then I started working with Agentic AI.
 
-Now imagine an AI agent that remembers previous decisions and continues from where you left off.
+And I realized something...
 
-That's not just convenient.
+The real power isn't in what AI knows.
 
-It's productive.
+It's in how it's allowed to work.
 
-To me, this is what professional Agentic DevOps looks like.
+A Security Auditor shouldn't have write access.
 
-And honestly...
+A Terraform Planner shouldn't deploy infrastructure.
 
-I think we're only scratching the surface of what's possible with Pravin Mishra
+An AI agent shouldn't have every permission just because it can.
+
+That sounded limiting at first.
+
+Now I see it differently.
+
+The most intelligent systems aren't the ones that can do everything.
+
+They're the ones that know what they should and shouldn't do.
+
+Funny enough...
+
+The same applies to us as engineers.
+
+Good engineering isn't just about capability.
+
+It's about control.
+
+It's about responsibility.
+
+It's about building systems that are powerful and safe.
+
+That's probably my biggest takeaway from Week 2.
+
+I'm not just learning how to use AI.
+
+I'm learning how to design trust into it.
+
 
 **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining [DMI waiting list](https://forms.gle/3hvrWJBDzsDeJoPs6) (https://forms.gle/3hvrWJBDzsDeJoPs6).**
 

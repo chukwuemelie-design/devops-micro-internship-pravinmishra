@@ -89,7 +89,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 ## Linkedin Post Link
 
-Paste your Linkedin post link here:
+https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_dmibypravinmishra-agenticai-claudecode-ugcPost-7481126358753054720-725z/?
 
 
 
@@ -97,7 +97,7 @@ Paste your Linkedin post link here:
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+https://github.com/chukwuemelie-design/devops-micro-internship-pravinmishra.git
 
 
 
