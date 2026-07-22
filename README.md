@@ -79,8 +79,8 @@ Week 02 → Agentic AI with Claude Code -->
 Week 03 → Linux & Bash for DevOps
 [![Week 03 – Linux & Bash](./badges/week-03.svg)](./week-03-linux-and-bash-for-devops/)
 
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
+Week 04 → Git & GitHub
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-github/)
 
 <!-- Week 05 → DevOps Lifecycle & Agile -->
 <!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
@@ -134,7 +134,7 @@ Week 03 → Linux & Bash for DevOps
 | 01 | Success Mindset | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_this-post-is-my-gift-for-you-this-remaining-activity-7478311848367529984-IzUl?|https://medium.com/@chukwuemelieoguejiofor/destiny-didnt-build-my-future-my-decisions-did-3b8b33135571|
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_dmibypravinmishra-agenticai-claudecode-activity-7480848944240001024-_yx2?|https://medium.com/@chukwuemelieoguejiofor/reflection-week-2-cbea007730bf|
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_this-week-during-my-devops-internship-one-ugcPost-7483188331170693120-i4qb/?|https://medium.com/@chukwuemelieoguejiofor/reflection-week-3-f3a249dc56e8|
-| 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
+| 04 | Git & GitHub | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_imagine-walking-into-a-house-where-the-walls-activity-7485455153190543360-l0pX?|https://medium.com/@chukwuemelieoguejiofor/week-4-reflection-bridging-local-git-workflow-to-ec2-deployment-9774491c2c33|
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
