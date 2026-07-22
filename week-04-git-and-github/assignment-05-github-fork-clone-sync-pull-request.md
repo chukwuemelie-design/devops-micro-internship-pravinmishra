@@ -126,7 +126,7 @@ https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/335
 
 #### LinkedIn Post URL
 
-
+https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_this-weeks-assignment-wasnt-about-deploying-activity-7485794817701052416-HIM3?
 
 
 
