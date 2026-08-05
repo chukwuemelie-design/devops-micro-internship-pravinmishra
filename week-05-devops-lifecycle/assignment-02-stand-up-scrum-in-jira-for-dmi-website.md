@@ -20,8 +20,7 @@ Create a private, team-managed Scrum Space named `DevOps Micro-Internship Websit
 
 #### Screenshot 1 — Space confirmation or Space sidebar showing the Space name and key
 
-![alt text](<Ass 2 ss 1.png>)
-
+![screenshot](screenshots/Ass2-ss1.png)
 ---
 
 # Task 2 — Create Your First Epic from the Backlog
@@ -34,7 +33,7 @@ Create the Epic `Polish DMI Website UI & Deploy` to group the website UI and dep
 
 #### Screenshot 2 — Backlog showing the Epic panel enabled and the Epic visible
 
-![alt text](<Ass 2 ss 2.png>)
+![screenshot](screenshots/Ass2-ss2.png)
 
 ---
 
@@ -48,13 +47,13 @@ Create all six required Stories (S1–S6) under the Epic, assign every Story to 
 
 #### Screenshot 3 — Backlog showing the Epic and all six Stories under it
 
-![alt text](<Ass 2 ss 3.png>)
+![screenshot](screenshots/Ass2-ss3.png)
 
 ---
 
 #### Screenshot 4 — One opened Story showing its Story point estimate, acceptance criteria, and label
 
-![alt text](<Ass 2 ss 4.png>)
+![screenshot](screenshots/Ass2-ss4.png)
 
 ---
 
