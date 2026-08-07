@@ -67,13 +67,13 @@ Break down S2 (Primary button color refresh) and S4 (Footer with version and dat
 
 #### Screenshot 5 — S2 showing all four Sub-tasks
 
-
+![screenshot](screenshots/ass2-ss5.png)
 
 ---
 
 #### Screenshot 6 — S4 showing all four Sub-tasks
 
-
+![screenshot](screenshots/Ass2-ss6.png)
 
 ---
 
@@ -87,8 +87,9 @@ Apply the `frontend` label to S1, S2, S3, S5, and S6, and the `devops` label to 
 
 #### Screenshot 7 — Backlog or Story details showing labels applied to at least two visible Stories
 
+![alt text](screenshots/Ass2-ss7a.png)
 
-
+![alt text](screenshots/Ass2-ss7b.png)
 ---
 
 # Task 6 — Create and Start Sprint 1
@@ -101,13 +102,13 @@ Create a one-week Sprint, move two or three Stories into it (approximately 3–5
 
 #### Screenshot 8 — Sprint 1 before starting, showing the selected Stories and Story Points
 
-
+![alt text](screenshots/Ass2-ss8.png)
 
 ---
 
 #### Screenshot 9 — Active Sprint board showing the started Sprint and Sprint Goal
 
-
+![alt text](screenshots/Ass2-ss9.png)
 
 ---
 
@@ -121,13 +122,13 @@ Filter Jira work by the `frontend` and `devops` labels and review Stories with S
 
 #### Screenshot 10 — Filter for label = frontend showing the filtered results
 
-
+![alt text](screenshots/Ass2-ss10.png)
 
 ---
 
 #### Screenshot 11 — Filter for label = devops showing the filtered results
 
-
+![alt text](screenshots/Ass2-ss11.png)
 
 ---
 
@@ -141,7 +142,7 @@ Locate the Burndown Chart for Sprint 1 so it is ready for later progress trackin
 
 #### Screenshot 12 — Burndown Chart page opened for Sprint 1
 
-
+![alt text](screenshots/Ass2-ss12.png)
 
 ---
 

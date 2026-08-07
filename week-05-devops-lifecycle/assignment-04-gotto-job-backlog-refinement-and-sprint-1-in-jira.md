@@ -20,7 +20,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-Add your screenshot here.
+![alt text](screenshots/image.png)
 
 ---
 
@@ -28,8 +28,16 @@ Add your screenshot here.
 
 Write one line for each role: PO (what you prioritized), SM (how you ensured process), Dev Lead (what you built), DevOps Lead (how you shipped).
 
-Write your answer here.
+### Team Mode
 
+| Role | Explanation | Team Member Name |
+|------|-------------|------------------|
+| **Scrum Masters** | Maintained the 90-minute time box, followed the Scrum workflow, documented the Sprint Goal, and ensured that the backlog and sprint remained transparent. | Jacquelina Shalinie Stanley, Rohan Kumar Das, Aziz Olaide Kafayat, Nebeolisa Chiemelie Kelvin, Oluwabunmi Olowoyeye |
+| **Product Owner** | Prioritised the backlog based on customer visibility, usability, trust, and the effort required to deliver each improvement. | Jacquelina Shalinie Stanley |
+| **Dev Lead 1** | Reviewed the Gotto Job source code and implemented a small UI-only improvement without making backend changes for Story 7 and Story 8. | Aziz Olaide Kafayat |
+| **Dev Lead 2** | Reviewed the Gotto Job source code and implemented a small UI-only improvement without making backend changes for Story 1, Story 2 and Story 3. | Nebeolisa Chiemelie Kelvin |
+| **Dev Lead 3** | Reviewed the Gotto Job source code and implemented a small UI-only improvement without making backend changes for Story 4, Story 5 and Story 6. | Oluwabunmi Olowoyeye |
+| **DevOps Lead** | Committed the changes with Git, deployed it to a live environment, verified the result, and recorded deployment evidence. | Rohan Kumar Das |
 ---
 
 # Task 2 — Create the Jira Project (Team-managed → Scrum)
@@ -42,7 +50,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-Add your screenshot here.
+![alt text](screenshots/image-01.png)
 
 ---
 
@@ -56,7 +64,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-Add your screenshot here.
+![alt text](screenshots/image-02.png)
 
 ---
 
@@ -70,13 +78,13 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
+![alt text](screenshots/image-03.png)
 
 ---
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
+![alt text](screenshots/image-04.png)
 
 ---
 
@@ -90,7 +98,9 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-Add your screenshot here.
+![alt text](screenshots/image-05.png)
+![alt text](screenshots/image-06.png)
+![alt text](screenshots/image-07.png)
 
 ---
 
@@ -98,7 +108,7 @@ Add your screenshot here.
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
+
 
 ---
 
@@ -112,13 +122,15 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
+![alt text](screenshots/image-08.png)
+![alt text](screenshots/image-09.png)
 
 ---
 
+
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
+![alt text](screenshots/image-010.png)
 
 ---
 
@@ -132,7 +144,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
+![alt text](screenshots/image-011.png)
 
 ---
 
@@ -146,19 +158,19 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
 
-Add your screenshot here.
+![alt text](screenshots/image-012.png)
 
 ---
 
 #### Screenshot 11 — Git commit output
 
-Add your screenshot here.
+![alt text](screenshots/image-013.png)
 
 ---
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-Add your screenshot here.
+![alt text](screenshots/image-014.png)
 
 ---
 
@@ -172,7 +184,8 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 #### Screenshot 13 — Jira retro comment visible
 
-Add your screenshot here.
+![alt text](screenshots/image-015.png)
+![alt text](screenshots/image-016.png)
 
 ---
 
@@ -186,15 +199,15 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
+
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-Add your screenshot here.
+
 
 ---
 
