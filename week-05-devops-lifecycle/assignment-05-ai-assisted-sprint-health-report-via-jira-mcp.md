@@ -20,13 +20,13 @@ Generate an API token from your Atlassian account that the MCP server will use t
 
 #### Screenshot 1 — Jira API token creation confirmation page showing the token name, with the token value not visible
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss1.png)
 
 ### Notes You Must Write (Very Important):
 
 Why does the MCP server need your site URL and account email in addition to the token?
 
-Add your answer here
+
 
 ---
 
@@ -40,13 +40,13 @@ Create or update `.mcp.json` at your project root with a Jira MCP server block, 
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the Jira server configuration
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss2.png)
 
 ### Notes You Must Write (Very Important):
 
 Compare this jira block to the github block from Week 2 Assignment 5. The GitHub server ran via npx (a Node.js package); this one runs via uvx (a Python package) — what stays exactly the same shape despite that difference, and why doesn't Claude Code care which language a given MCP server is written in?
 
-Add your answer here
+
 
 ---
 
@@ -60,13 +60,13 @@ Add your Jira site URL, account email, and API token to `.claude/settings.local.
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section, with the actual token value blurred or covered
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss3.png)
 
 ### Notes You Must Write (Very Important):
 
 Why must JIRA_API_TOKEN live in settings.local.json and never in .mcp.json?
 
-Add your answer here
+
 
 ---
 
@@ -80,7 +80,7 @@ Restart Claude Code and confirm the Jira MCP server shows as connected.
 
 #### Screenshot 4 — `/mcp` output showing `jira: connected`
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss4.png)
 
 ---
 
@@ -94,13 +94,14 @@ Ask Claude to list the issues in your current active sprint through the Jira MCP
 
 #### Screenshot 5 — Claude's response showing the live sprint issue list retrieved via Jira MCP
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss5.png)
+![alt text](screenshots/Ass5-ss5b.png)
 
 ### Notes You Must Write (Very Important):
 
 How did you confirm this was real board data and not something Claude guessed?
 
-Add your answer here
+
 
 ---
 
@@ -114,21 +115,21 @@ Create a `/sprint-health` skill restricted to read-only Jira tools plus `Read`, 
 
 #### Screenshot 6 — `SKILL.md` frontmatter showing `allowed-tools` limited to read-only Jira tools plus `Read`, with `disable-model-invocation: true`
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss6.png)
 
 #### Screenshot 7 — `/sprint-health` output showing the full triage report against your real sprint
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss7a.png)
 
 ### Notes You Must Write (Very Important):
 
 1. Which Jira MCP tools does this skill's allowed-tools list include, and which mutating tools (create issue, update issue, transition issue, add comment) does it deliberately exclude?
 
-Add your answer here
+
 
 2. Why does a Scrum Master need this restriction more than almost any other role in this course?
 
-Add your answer here
+
 
 ---
 
@@ -142,13 +143,13 @@ Manually update one ticket on your board in the browser (for example, move a sto
 
 #### Screenshot 8 — Second `/sprint-health` run showing the report now reflects your manual board change
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss7b.png)
 
 ### Notes You Must Write (Very Important):
 
 Map this assignment to Gather → Analyze → Human Act → Verify from Week 3 Assignment 6. Which step did you perform manually in the browser, and why must that step stay human?
 
-Add your answer here
+
 
 ---
 
