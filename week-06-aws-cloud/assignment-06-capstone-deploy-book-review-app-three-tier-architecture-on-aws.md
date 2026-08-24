@@ -20,7 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
+
 
 ---
 
@@ -34,13 +34,41 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+us-east-1 North Virginia
 
 ---
 
 **Services:**
 
-Write your answer here.
+Compute
+
+Amazon EC2 — two instances used:
+Frontend instance: runs Next.js (port 3000) + nginx as a reverse proxy
+Backend instance: runs Node.js/Express app (port 3001), managed with PM2
+
+Database
+
+Amazon RDS (MySQL) — managed database instance (book_review_db), connected over SSL from the backend instance
+
+Load Balancing
+
+Elastic Load Balancing (Application Load Balancer) — two ALBs used:
+Public ALB (book-review-web-alb) — receives internet traffic and routes it to the frontend instance
+Internal ALB (internal-Book-Review-App-ALB) — routes /api/ requests from the frontend's nginx to the backend instance, keeping the backend off the public internet directly
+
+Networking
+
+Amazon VPC — the private network containing both EC2 instances, RDS, and the internal ALB (evidenced by private IPs such as 10.0.11.35, 10.0.0.53, 10.0.0.42)
+Subnets — instances and the internal ALB are placed in private subnets (not directly internet-facing); the public ALB sits in public subnets to accept internet traffic and forward it inward
+Target Groups — register EC2 instances behind each ALB and run health checks to determine routing eligibility
+
+Security
+
+Security Groups — used at every trust boundary:
+RDS security group — restricts database access to specific EC2 security groups (backend instance) on port 3306
+Backend instance security group — allows traffic from the internal ALB
+Frontend instance security group — allows traffic from the public ALB on port 80
+ALB security groups — control what can reach each load balancer (public ALB open to the internet on port 80; internal ALB restricted to VPC traffic)
 
 ---
 
@@ -54,9 +82,9 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 #### Public ALB DNS
 
-Paste your public ALB DNS name here:
 
-`Add your URL here`
+
+http://book-review-web-alb-155460695.us-east-1.elb.amazonaws.com/
 
 ---
 
@@ -70,37 +98,37 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ec2-ss.png)
 
 ---
 
 #### App EC2
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-app-ss.png)
 
 ---
 
 #### Public ALB
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-publicALB.png)
 
 ---
 
 #### Internal ALB
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-interALB.png)
 
 ---
 
 #### RDS + Replica
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-RDS.png)
 
 ---
 
 #### App UI proof
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ui.png)
 
 ---
 
@@ -114,19 +142,50 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
+What Worked in the Final Deployment
+Backend (Node.js/Express) running via PM2 on port 3001, connected to a MySQL RDS instance over SSL, with schema sync and seed data loading successfully on startup.
+Frontend (Next.js) running locally on port 3000 on its own EC2 instance.
+Nginx on the frontend instance acting as a reverse proxy:
+/api/ requests forwarded to the internal ALB, which routes to the backend.
+All other requests (/) forwarded to the local Next.js app on port 3000.
+Public ALB (book-review-web-alb) sitting in front of the frontend instance, intended to route public internet traffic in.
+Security groups configured so the backend's EC2 instance could reach the RDS instance on port 3306.
 
 ---
 
 **Issues + fixes:**
 
-Write your answer here.
+502 Bad Gateway from nginx (epicbook app)-Backend Node app wasn't running — nothing listening on port 8080, Located the app directory, ran node server.js manually to see logs, confirmed it started correctly
 
+
+App died after closing terminal / Ctrl+C- App was run directly in the foreground, not as a persistent process- Installed and configured PM2 to run the app as a managed background service
+
+nginx -t failed with Permission denied on /run/nginx.pid- Command was run without sudo- Re-ran as sudo nginx -t 
+
+mysql connection to RDS timed out (ERROR 2003, errno 110)- RDS security group didn't allow inbound traffic from the backend EC2 instance's security group (only the frontend's SG was allowed)- Added an inbound rule on the RDS security group for the backend instance's security group on port 3306
+
+ER_ACCESS_DENIED_ERROR connecting to RDS- Network path was fixed, but credentials (admin password) didn't match RDS master password	Verified/corrected the password in .env, confirmed manually via mysql CLI before retrying the app
+
+PM2 showed app as "online" but curl couldn't connect- EADDRINUSE — an earlier manually-run node src/server.js process was still holding port 3001, so the PM2-managed instance was crash-looping in the background- Found and killed the old process (ss -tulpn | grep 3001, kill -9), deleted the stuck PM2 process, and restarted cleanly
+
+nginx -t failed: unexpected end of file, expecting "}"	A brace mismatch introduced while editing the config in nano — later, an extra stray closing brace left at the end of the file	Reviewed and rewrote the config with exactly two closing braces (for location / and server)
+
+Public ALB returning 503 Service Temporarily Unavailable (AWS default error page)- Target group had no healthy targets — traced to checking target health, health check path/port, and security group rules allowing the ALB to reach the instance on port 80- (Open at time of writing — next step is confirming target group health status, health check config, and instance security group rules)
 ---
 
 **Tools/sources used:**
 
-Write your answer here.
+AWS Console — RDS security groups, target group health checks, ALB listener/target configuration
+Linux/nginx CLI tools — nginx -t, systemctl, ss -tulpn, ps aux, curl -I, journalctl
+
+PM2 — process management, pm2 start, pm2 status, pm2 logs, pm2 delete
+
+MySQL CLI — direct connection testing to isolate network vs. auth issues
+
+Application's own logs (via node server.js foreground run and pm2 logs) — the most decisive debugging step each time, since they revealed exact error codes (EADDRINUSE, ER_ACCESS_DENIED_ERROR, 
+ECONNREFUSED-style timeouts) rather than guessing from symptoms alone
+
+Project's own "Installation & Configuration Guide.md" — cross-checked against live troubleshooting steps
 
 ---
 
@@ -140,15 +199,15 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
+
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+
 
 ---
 
