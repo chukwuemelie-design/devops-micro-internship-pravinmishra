@@ -30,13 +30,13 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![alt text](screenshots/Ass1-ss1.png)
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![alt text](screenshots/Ass1-ss2.jpeg)
 
 ---
 
@@ -44,7 +44,7 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I plan to explore Azure Kubernetes Service (AKS) first to deepen my container orchestration skills and streamline the scaling of microservices applications. Alongside AKS, I want to dive into Azure Key Vault and Azure Monitor to master secret management and infrastructure observability in enterprise environments. Mastering these services will help me automate secure, highly available deployment pipelines and build production-grade cloud architectures on Azure.
 
 ---
 

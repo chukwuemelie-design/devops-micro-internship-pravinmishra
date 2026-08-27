@@ -93,8 +93,8 @@ Week 05 → DevOps Lifecycle & Agile
 Week 06 → AWS Cloud
 [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/)
 
-<!-- Week 07 → Azure Cloud -->
-<!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
+Week 07 → Azure Cloud
+[![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/)
 
 <!-- Week 08 → Terraform -->
 <!-- [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) -->
@@ -142,7 +142,7 @@ Week 06 → AWS Cloud
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_imagine-walking-into-a-house-where-the-walls-activity-7485455153190543360-l0pX?|https://medium.com/@chukwuemelieoguejiofor/week-4-reflection-bridging-local-git-workflow-to-ec2-deployment-9774491c2c33|
 | 05 | DevOps Lifecycle & Agile | ✅ Completed| ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_before-this-project-i-thought-great-software-ugcPost-7493169824349585408-HM9L/?|https://medium.com/@chukwuemelieoguejiofor/week-5-reflection-learning-agile-delivery-with-jira-from-planning-to-shipping-83abc29aa2e4|
 | 06 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_most-people-think-deployment-starts-with-ugcPost-7495343907795386368-1AeH/?|https://medium.com/@chukwuemelieoguejiofor/building-a-fault-tolerant-infrastructure-on-aws-deploying-a-multi-az-two-tier-web-application-d4285e3bc479?|
-| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | Azure Cloud | ✅ Completed | ✅ Completed | — |https://medium.com/@chukwuemelieoguejiofor/deploying-a-production-ready-react-app-on-an-azure-vm-with-nginx-1ccd01dc2554|
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
