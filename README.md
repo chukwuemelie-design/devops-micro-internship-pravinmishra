@@ -142,9 +142,9 @@ Week 07 → Azure Cloud
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_imagine-walking-into-a-house-where-the-walls-activity-7485455153190543360-l0pX?|https://medium.com/@chukwuemelieoguejiofor/week-4-reflection-bridging-local-git-workflow-to-ec2-deployment-9774491c2c33|
 | 05 | DevOps Lifecycle & Agile | ✅ Completed| ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_before-this-project-i-thought-great-software-ugcPost-7493169824349585408-HM9L/?|https://medium.com/@chukwuemelieoguejiofor/week-5-reflection-learning-agile-delivery-with-jira-from-planning-to-shipping-83abc29aa2e4|
 | 06 | AWS Cloud | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_most-people-think-deployment-starts-with-ugcPost-7495343907795386368-1AeH/?|https://medium.com/@chukwuemelieoguejiofor/building-a-fault-tolerant-infrastructure-on-aws-deploying-a-multi-az-two-tier-web-application-d4285e3bc479?|
-| 07 | Azure Cloud | ✅ Completed | ✅ Completed | — |https://medium.com/@chukwuemelieoguejiofor/deploying-a-production-ready-react-app-on-an-azure-vm-with-nginx-1ccd01dc2554|
-| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | Azure Cloud | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_there-have-been-a-silent-battle-between-aws-activity-7496068703449473024-7hJC?|https://medium.com/@chukwuemelieoguejiofor/deploying-a-production-ready-react-app-on-an-azure-vm-with-nginx-1ccd01dc2554|
+| 08 | Terraform | ✅ Completed | ✅ Completed | — |https://medium.com/@chukwuemelieoguejiofor/automating-infrastructure-reflections-on-provisioning-my-first-azure-vm-with-terraform-2e3519b96503|
+| 09 | Ansible | ✅ Completed | ✅ Completed| — |https://medium.com/@chukwuemelieoguejiofor/building-production-grade-automation-reflections-on-setting-up-a-team-ready-ansible-workstation-d3f149cba5a2|
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
