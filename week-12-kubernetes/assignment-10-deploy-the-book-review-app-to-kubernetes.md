@@ -244,31 +244,61 @@ Add your published LinkedIn post URL here.
 
 Describe the application components and user flows you successfully deployed and tested.
 
-Add your summary here.
+I successfully deployed and tested NGINX applications using different Kubernetes Service types: ClusterIP, NodePort, and LoadBalancer on Azure Kubernetes Service (AKS).
+
+I configured Deployments with multiple replicas, readiness probes, and liveness probes. I tested internal application communication using ClusterIP and DNS, explored external access through NodePort, and exposed an NGINX application publicly through an Azure LoadBalancer Service.
+
+I also tested how Kubernetes handles Pod replacement, scaling, and readiness during rolling updates. I verified that Services provide stable access to applications even when backend Pods are replaced or scaled.
 
 ## Issues and Fixes
 
 Describe the main issues encountered, their causes, and how you resolved them.
 
-Add your summary here.
+During the exercises, I intentionally introduced configuration errors to understand how Kubernetes responds to unhealthy workloads and incorrect Service configurations.
+
+Readiness probe failures: An incorrect HTTP path caused Pods to become NotReady. I restored the correct probe path and reapplied the Deployment configuration.
+
+Liveness probe failures: An invalid health-check path caused Kubernetes to restart unhealthy containers. I corrected the configuration to restore stable operation.
+
+Service selector mismatch: An incorrect selector resulted in empty Service endpoints. I restored the matching Pod labels to re-establish connectivity.
+
+NodePort connectivity: External access can depend on the cluster's networking configuration. I learned to distinguish between Service configuration issues and host-to-cluster network limitations.
+
+LoadBalancer provisioning: The external IP may initially remain pending while Azure provisions the required networking resources. Waiting for the IP assignment allowed public endpoint testing.
 
 ## Tools and Sources Used
 
 List the documentation and tools that helped you complete the assignment.
 
-Add your tools and sources here.
+Tools:
+
+Kubernetes (kubectl)
+
+Azure Kubernetes Service (AKS)
+
+Microsoft Azure Portal
+
+NGINX
+
+YAML manifests
+
+Linux terminal / Ubuntu on WSL
+
+Docker and Kubernetes container networking
+
+curl for HTTP connectivity testing
 
 ## Optional Improvements
 
 Describe any optional improvements implemented, or write “Not attempted.”
 
-Add your summary here.
+
 
 ## Cleanup or Reuse Plan
 
 State which resources were removed or why the environment is being retained.
 
-Add your cleanup status or reuse plan here.
+
 
 ---
 

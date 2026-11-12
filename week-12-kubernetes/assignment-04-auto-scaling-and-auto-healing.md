@@ -42,13 +42,13 @@ Add your screenshot here.
 
 **1. What is the difference between auto-healing and auto-scaling?**
 
-Add your answer here.
+Auto-healing automatically replaces failed or deleted Pods to maintain the desired number of replicas. Auto-scaling automatically increases or decreases the number of Pods based on resource usage or application demand.
 
 ---
 
 **2. Which Kubernetes feature will you use for CPU-based auto-scaling?**
 
-Add your answer here.
+Horizontal Pod Autoscaler (HPA).
 
 ---
 
@@ -88,19 +88,19 @@ Add your screenshot here.
 
 **1. What happened after you deleted one Pod?**
 
-Add your answer here.
+After I deleted one Pod, Kubernetes automatically created a replacement Pod to maintain the desired number of two replicas.
 
 ---
 
 **2. What Kubernetes resource maintains the desired replica count for this Deployment?**
 
-Add your answer here.
+The ReplicaSet manages the desired replica count by ensuring that the specified number of Pods is maintained.
 
 ---
 
 **3. What proves that auto-healing worked?**
 
-Add your answer here.
+The appearance of a replacement Pod with a different name and the return of the Deployment to two running and ready Pods prove that auto-healing worked successfully.
 
 ---
 
@@ -128,19 +128,19 @@ Add your screenshot here.
 
 **1. What does `cpu: "100m"` mean?**
 
-Add your answer here.
+It means the container requests 100 millicores of CPU, which is equivalent to 0.1 of one CPU core.
 
 ---
 
 **2. What is the difference between a CPU request and a CPU limit?**
 
-Add your answer here.
+A CPU request specifies the amount of CPU resources Kubernetes reserves for a container when scheduling it. A CPU limit specifies the maximum CPU usage the container is allowed to consume.
 
 ---
 
 **3. Why does CPU-based HPA require CPU requests?**
 
-Add your answer here.
+CPU-based HPA uses CPU requests as the baseline for calculating CPU utilization percentages. Without CPU requests, Kubernetes cannot accurately calculate the percentage of CPU utilization for scaling decisions.
 
 ---
 
@@ -162,19 +162,19 @@ Add your screenshot here.
 
 **1. Why does HPA need Metrics Server?**
 
-Add your answer here.
+CPU-based HPA uses CPU requests as the baseline for calculating CPU utilization percentages. Without CPU requests, Kubernetes cannot accurately calculate the percentage of CPU utilization for scaling decisions.
 
 ---
 
 **2. What issue can occur if Metrics Server is not working?**
 
-Add your answer here.
+HPA needs Metrics Server to collect CPU and memory usage metrics from Kubernetes Pods and provide the information required to make scaling decisions.
 
 ---
 
 **3. What does `kubectl top pods` help you check?**
 
-Add your answer here.
+HPA may be unable to retrieve resource metrics, resulting in unknown CPU utilization and preventing automatic scaling decisions.
 
 ---
 
@@ -202,25 +202,25 @@ Add your screenshot here.
 
 **1. What does `minReplicas: 2` mean?**
 
-Add your answer here.
+It specifies that the Deployment must maintain at least two Pods, even when resource utilization is low.
 
 ---
 
 **2. What does `maxReplicas: 5` mean?**
 
-Add your answer here.
+It specifies that the HPA can increase the number of Pods up to a maximum of five when resource utilization increases.
 
 ---
 
 **3. What does `averageUtilization: 50` mean?**
 
-Add your answer here.
+It instructs the HPA to target an average CPU utilization of 50% of the CPU requests across the Pods managed by the Deployment.
 
 ---
 
 **4. Why should only one HPA manage a Deployment at a time?**
 
-Add your answer here.
+Only one HPA should manage a Deployment to prevent conflicting scaling decisions. Multiple HPAs managing the same Deployment could repeatedly change the replica count and cause unpredictable scaling behaviour.
 
 ---
 
@@ -254,19 +254,19 @@ Complete these answers only if you perform the optional test.
 
 **1. Did the HPA change the number of Pods? Explain what you observed.**
 
-Add your answer here.
+
 
 ---
 
 **2. If scaling did not happen, what are two possible reasons?**
 
-Add your answer here, or write “Not applicable — scaling occurred.”
+
 
 ---
 
 **3. Why is automatic scale-down useful after traffic decreases?**
 
-Add your answer here.
+
 
 ---
 
@@ -276,11 +276,10 @@ Add your answer here.
 
 #### Screenshot 13 — Published LinkedIn post showing your name, the required explanation, and the attached Kubernetes screenshot
 
-Add your screenshot here.
+
 
 #### Linkedin Post Link
 
-Add your link here
 
 ---
 

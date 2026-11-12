@@ -22,13 +22,13 @@ Create separate directories and files for the Terraform infrastructure and Ansib
 
 #### Screenshot 1 — Terminal or VS Code showing the complete `mini-finance` project structure
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss1.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -42,19 +42,19 @@ Use Terraform to provision an Ubuntu Virtual Machine with the required Azure net
 
 #### Screenshot 2 — Terraform code showing the `Allow-SSH` rule for port `22` and the `Allow-HTTP` rule for port `80`
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss2.png)
 
 ---
 
 #### Screenshot 3 — Terraform code showing the association between `nsg-mini-finance` and `nic-mini-finance`
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss3.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -68,19 +68,19 @@ Format and validate the Terraform configuration, review the execution plan, and 
 
 #### Screenshot 4 — End of the `terraform apply` output showing `Apply complete!` with no errors
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss4.png)
 
 ---
 
 #### Screenshot 5 — Output of `terraform output public_ip` showing the VM’s public IP address
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss5.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -94,13 +94,13 @@ Confirm that the Ansible controller can connect to the Terraform-provisioned Azu
 
 #### Screenshot 6 — Passwordless SSH command and the returned `mini-finance` hostname
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss6.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -114,7 +114,7 @@ Add the Terraform-provisioned Azure VM to the Ansible inventory and confirm that
 
 #### Screenshot 7 — Ansible ping output showing `SUCCESS` and `pong` from the Azure VM
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss7.png)
 
 ---
 
@@ -123,7 +123,7 @@ Add your screenshot here.
 Copy and paste the complete contents of your `ansible/inventory.ini` file below:
 
 ```ini
-Add your inventory.ini content here.
+
 ```
 
 ---
@@ -145,7 +145,7 @@ Screenshot must show:
 - Nginx service configured as started and enabled
 - Beginning of Play 2 with the Git repository URL and synchronization task
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss8.png)
 
 ---
 
@@ -159,7 +159,7 @@ Screenshot must show:
 - Play 3 targeting `localhost`
 - The `uri` verification and `assert` condition
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss9.png)
 
 ---
 
@@ -168,7 +168,7 @@ Add your screenshot here.
 Copy and paste the complete contents of your `ansible/site.yml` file below:
 
 ```yaml
-Add your site.yml content here.
+
 ```
 
 ---
@@ -183,25 +183,25 @@ Validate the syntax of the multi-play Ansible playbook and run it to install Ngi
 
 #### Screenshot 10 — Successful playbook syntax check showing `playbook: site.yml`
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss10.png)
 
 ---
 
 #### Screenshot 11 — Play 3 output showing the successful HTTP verification and assertion
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss11.png)
 
 ---
 
 #### Screenshot 12 — Final `PLAY RECAP` showing `failed=0` and `unreachable=0`
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss12.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -215,7 +215,7 @@ Confirm that the Mini Finance website is publicly accessible through the Azure V
 
 #### Screenshot 13 — Mini Finance website successfully loading in the browser, with the Azure VM’s public IP address visible in the address bar
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss13.png)
 
 ---
 
@@ -224,7 +224,7 @@ Add your screenshot here.
 Add your deployed website URL below:
 
 ```text
-http://<PUBLIC_IP>
+
 ```
 
 ---
@@ -239,8 +239,8 @@ Create a `README.md` file to document the Mini Finance infrastructure and deploy
 
 #### Screenshot 14 — Completed `README.md` displayed in the VS Code Markdown preview or terminal
 
-Add your screenshot here.
-
+![alt text](screenshots/Ass4-ss14.png)
+![alt text](screenshots/Ass4-ss14a.png)
 ---
 
 ### README Content
@@ -248,7 +248,7 @@ Add your screenshot here.
 Copy and paste the complete contents of your `README.md` file below:
 
 ```markdown
-Add your README.md content here.
+
 ```
 
 ---
@@ -259,7 +259,7 @@ Add your README.md content here.
 
 #### Screenshot 15 — Published LinkedIn post showing the text and at least one deployment screenshot
 
-Add your screenshot here.
+
 
 ---
 
@@ -267,7 +267,7 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 

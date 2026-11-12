@@ -37,7 +37,7 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss1.png)
 
 ---
 
@@ -81,7 +81,7 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss1.png)
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +104,7 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+![alt text](screenshots/Ass2-ss4.png)
 
 ---
 
@@ -122,7 +122,7 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss5.png)
 
 ---
 
@@ -143,15 +143,15 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+![alt text](../week-08-terraform/screenshots/Ass3-ss14.png)
 
 ## Final Application URL
 
-`http://<vm-public-ip>`
+`http://20.85.213.122`
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
+
 
 ---
 
@@ -159,7 +159,7 @@ Replace the placeholder and paste your final application URL below:
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+
 
 ---
 
@@ -174,11 +174,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 

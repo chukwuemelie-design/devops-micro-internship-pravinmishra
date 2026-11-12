@@ -30,7 +30,7 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
-Add your screenshot here.
+![alt text](screenshots/Ass2-ss1.png)
 
 ---
 
@@ -46,7 +46,7 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
-Add your screenshot here.
+![alt text](screenshots/Ass2-ss2.png)
 
 ---
 
@@ -60,7 +60,7 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![alt text](screenshots/Ass2-ss3.png)
 
 ---
 
@@ -76,7 +76,7 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-Add your screenshot here.
+![alt text](screenshots/Ass2-ss4.png)
 
 ---
 
@@ -90,7 +90,7 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+
 
 ---
 
@@ -117,7 +117,7 @@ react-single:latest
 react-multistage:latest
 ```
 
-Add your screenshot here.
+![alt text](screenshots/Ass2-ss6.png)
 
 ---
 
@@ -158,6 +158,14 @@ Write a short analysis of 5–8 lines covering:
 
 Write your analysis here.
 
+The single-stage Docker image was approximately 782 MB, while the multi-stage image (`my-react-app:latest`) was 95.1 MB.  
+This represents an image size reduction of approximately 87.8%.  
+The smaller runtime image improves security because it excludes unnecessary build tools, dependencies, and development files.  
+This reduces the attack surface by limiting the software and components available inside the production container.  
+Smaller images require less data to download, resulting in faster image pulls and application deployments.  
+I also optimized Docker build caching by copying `package*.json` first and running `npm install` before copying the remaining application source code.  
+This allows Docker to reuse the dependency installation layer when application source files change, reducing unnecessary rebuild time.
+
 ---
 
 # Task 6 — Explore Additional Production Optimizations (Optional)
@@ -175,7 +183,7 @@ You may choose to:
 - Experiment with a lighter runtime image
 - Compare the resulting image size with your original multi-stage image
 
-Screenshots are optional.
+
 
 ---
 
@@ -189,15 +197,14 @@ Create a LinkedIn post describing what you built, what a multi-stage Docker buil
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+
 
 ---
 

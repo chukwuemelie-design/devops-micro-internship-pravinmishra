@@ -31,7 +31,7 @@ Create the required folders and files for the Ansible project.
 
 ### Screenshot 1 — Terminal or VS Code showing the complete `static-web` project structure
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss1.png)
 
 ---
 
@@ -45,7 +45,7 @@ Add both Ubuntu servers to the Ansible inventory.
 
 ### Screenshot 2 — Output of `ansible-inventory -i inventory.ini --graph` showing `web1` and `web2`
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss2.png)
 
 ---
 
@@ -54,7 +54,7 @@ Add your screenshot here.
 Copy and paste the complete contents of your `inventory.ini` file below:
 
 ```ini
-Add your inventory.ini content here.
+
 ```
 
 ---
@@ -69,7 +69,7 @@ Confirm that the Ansible controller can connect to both servers.
 
 ### Screenshot 3 — Ansible ping output showing `SUCCESS` and `pong` for both servers
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss3.png)
 
 ---
 
@@ -83,7 +83,7 @@ Download `index.html` to the Ansible controller and personalize the website with
 
 ### Screenshot 4 — Edited `files/index.html` showing the footer line with your full name
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss4.png)
 
 ---
 
@@ -98,7 +98,7 @@ Create a single Ansible playbook containing separate plays for installation, dep
 Copy and paste the complete contents of your `site.yml` file below:
 
 ```yaml
-Add your site.yml content here.
+
 ```
 
 ---
@@ -113,7 +113,7 @@ Check the playbook for YAML or Ansible syntax errors before running it.
 
 ### Screenshot 5 — Successful syntax-check output showing `playbook: site.yml`
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss5.png)
 
 ---
 
@@ -127,13 +127,13 @@ Install Nginx, deploy the website, and verify both servers in one playbook run.
 
 ### Screenshot 6 — Play 3 verification showing HTTP `200` for both servers
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss6.png)
 
 ---
 
 ### Screenshot 7 — Final play recap showing `unreachable=0` and `failed=0` for `web1`, `web2`, and `localhost`
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss7.png)
 
 ---
 
@@ -147,7 +147,7 @@ Run the playbook again and confirm that it does not make unnecessary changes.
 
 ### Screenshot 8 — Second playbook run showing the play recap with `changed=0`, `unreachable=0`, and `failed=0` for both web servers
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss8.png)
 
 ---
 
@@ -161,20 +161,20 @@ Confirm that the static website is accessible from both public IP addresses.
 
 ### Screenshot 9 — `curl -I` output showing HTTP `200 OK` from both servers
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss9.png)
 
 ---
 
 ### Screenshot 10 — Browser showing the website from Server 1 with the public IP and your full name visible
 
-Add your screenshot here.
+![alt text](screenshots/Ass3-ss10.png)
 
 ---
 
 ### Screenshot 11 — Browser showing the website from Server 2 with the public IP and your full name visible
 
-Add your screenshot here.
-
+![alt text](screenshots/Ass3-ss11a.png)
+![alt text](screenshots/Ass3-ss11b.png)
 ---
 
 ## Website URLs
@@ -182,8 +182,8 @@ Add your screenshot here.
 Add both deployed website URLs below:
 
 ```text
-Server 1: http://<SERVER_1_PUBLIC_IP>
-Server 2: http://<SERVER_2_PUBLIC_IP>
+Server 1: http://56.228.65.142
+Server 2: http://16.170.4.44
 ```
 
 ---
@@ -199,7 +199,50 @@ Document how the project works and record what you learned.
 Copy and paste the complete contents of your `README.md` file below:
 
 ```markdown
-Add your README.md content here.
+
+# Assignment 03: Deploy a Static Website Using Ansible
+
+## Overview
+This project uses a multi-play Ansible playbook to deploy a static website to two Ubuntu EC2 web servers running Nginx.
+
+## Architecture
+- Ansible controller: Ubuntu on WSL
+- Web server 1: 56.228.65.142
+- Web server 2: 16.170.4.44
+- Web server: Nginx
+- Cloud provider: AWS
+- AWS region: eu-north-1
+
+## Project Structure
+- `inventory.ini` - Defines the web server inventory and SSH settings.
+- `site.yml` - Installs Nginx, deploys the website, and verifies HTTP responses.
+- `files/index.html` - Personalized static website.
+- `README.md` - Project documentation.
+
+## Playbook Tasks
+1. Install Nginx and ensure the service is enabled and running.
+2. Deploy `index.html` to `/var/www/html/index.html`.
+3. Reload Nginx when the website file changes.
+4. Verify that both web servers return HTTP 200.
+
+## Validation
+- Inventory parsed successfully.
+- Ansible ping succeeded on both web servers.
+- Playbook syntax check passed.
+- Both websites returned HTTP 200.
+- Second playbook run completed with `changed=0` on both web servers.
+
+## Run the Playbook
+```bash
+ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -i inventory.ini site.yml
+```
+
+## Website URLs
+- Server 1: http://56.228.65.142
+- Server 2: http://16.170.4.44
+
+## Security Notes
+SSH access is restricted to the controller's current public IP using a `/32` CIDR rule. HTTP access is allowed publicly for website visitors. The SSH rule may need updating if the controller's public IP changes.
 ```
 
 ---
@@ -212,13 +255,13 @@ Add your README.md content here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 ### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+
 
 ---
 
@@ -228,37 +271,37 @@ Answer the following in your own words:
 
 **1. What issue did you face while completing this assignment, and how did you fix it?**
 
-Add your answer here.
+The main issue I faced was an SSH connection timeout when Ansible tried to connect to both EC2 web servers. I discovered that the security group allowed SSH access only from an outdated public IP address. I fixed this by updating the inbound SSH rule to allow my current public IP address, after which Ansible successfully pinged both servers.
 
 ---
 
 **2. What did you learn from this assignment?**
 
-Add your answer here.
+I learned how to use a multi-play Ansible playbook to automate the deployment of a static website to multiple AWS EC2 servers. I also learned how to configure an inventory, install and manage Nginx, copy website files, use handlers, verify HTTP responses, and test idempotency.
 
 ---
 
 **3. Why is it useful to split installation, deployment, and verification into separate plays?**
 
-Add your answer here.
+Splitting these tasks into separate plays makes the playbook easier to understand, maintain, and troubleshoot. Each play has a specific responsibility: installing and configuring Nginx, deploying the website, or verifying that the servers respond correctly. It also allows verification to run from the Ansible controller without requiring administrative privileges on localhost.
 
 ---
 
 **4. What is one benefit of using the Ansible `copy` module instead of cloning the website directly from Git on every managed server?**
 
-Add your answer here.
+The copy module allows me to maintain one version of the website file on the Ansible controller and distribute the same file to all managed servers. This keeps the deployment consistent and avoids requiring Git or repository access on every web server.
 
 ---
 
 **5. What does idempotency mean in this assignment?**
 
-Add your answer here.
+Idempotency means that running the same playbook repeatedly produces the desired state without making unnecessary changes. In this assignment, the second run reported changed=0 on both web servers because Nginx was already installed and running, and the website files were already up to date.
 
 ---
 
 **6. What does the Ansible `uri` module verify in Play 3?**
 
-Add your answer here.
+The uri module sends HTTP requests to both web servers and checks their responses. In this assignment, it verifies that each website returns HTTP status code 200, confirming that the web pages are accessible and responding successfully.
 
 ---
 

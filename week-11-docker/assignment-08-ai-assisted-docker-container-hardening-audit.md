@@ -33,7 +33,7 @@ docker-audit.sh
 SKILL.md
 ```
 
-Add your screenshot here.
+![alt text](screenshots/Ass8-ss1.png)
 
 ---
 
@@ -49,7 +49,7 @@ Add the supplied `docker-audit` skill to Claude Code and confirm that it is avai
 
 Add a screenshot of Claude Code showing `docker-audit` in the available skill list.
 
-Add your screenshot here.
+![alt text](screenshots/Ass8-ss2.png)
 
 ---
 
@@ -70,7 +70,7 @@ Add a terminal screenshot showing:
 - Your full name
 - The usage message displayed when the script runs without a container name
 
-Add your screenshot here.
+![alt text](screenshots/Ass8-ss3.png)
 
 ---
 
@@ -90,7 +90,7 @@ Add a terminal screenshot showing:
 - `docker ps`
 - The audit command using the selected target container name
 
-Add your screenshot here.
+![alt text](screenshots/Ass8-ss4.png)
 
 ---
 
@@ -98,7 +98,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the initial Docker audit results.
 
-Add your screenshot here.
+![alt text](screenshots/Ass8-ss5.png)
 
 ---
 
@@ -119,7 +119,7 @@ Add a Claude Code screenshot showing:
 - Recommended manual fix
 - Verification method
 
-Add your screenshot here.
+![alt text](screenshots/Ass8-ss6.png)
 
 ---
 
@@ -135,7 +135,7 @@ Manually fix one WARN or FAIL finding from the initial audit.
 
 Add a screenshot of the updated Dockerfile or `docker-compose.yml` showing the selected hardening fix.
 
-Add your screenshot here.
+![alt text](screenshots/Ass8-ss7.png)
 
 ---
 
@@ -143,7 +143,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing your full name and the rebuilt or recreated service/container running successfully.
 
-Add your screenshot here.
+![alt text](screenshots/Ass8-ss8.png)
 
 ---
 
@@ -163,7 +163,7 @@ Add a terminal screenshot showing:
 - The updated running container
 - The final audit report
 
-Add your screenshot here.
+![alt text](screenshots/Ass8-ss9.png)
 
 ---
 
@@ -178,6 +178,13 @@ Write a short comparison covering:
 
 Write your comparison here.
 
+The initial Docker security audit identified configuration weaknesses, including containers running with excessive privileges and unnecessary components in the images.  
+To address these issues, I updated the Dockerfile and Docker Compose configuration to apply more secure container settings.  
+I optimized the Docker image, configured the backend to run as a non-root user, and improved container security settings.  
+After applying the changes, I ran the security audit again and confirmed that the identified issues had been addressed.  
+The improvements reduced the container attack surface, limited unnecessary privileges, and strengthened the overall security of the application deployment.
+:::Note: Keep the final audit claim only if your actual audit results confirmed that the identified issues were resolved.
+
 ---
 
 # LinkedIn Requirement
@@ -188,13 +195,13 @@ Create a LinkedIn post about the container security checks you performed, one ha
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** 
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post, including the final audit result.
 
-Add your screenshot here.
+
 
 ---
 

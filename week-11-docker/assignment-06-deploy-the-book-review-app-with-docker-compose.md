@@ -30,7 +30,6 @@ backend/
 docker-compose.yml
 ```
 
-Add your screenshot here.
 
 ---
 
@@ -47,7 +46,7 @@ backend/.dockerignore
 
 Ensure that no real passwords, tokens, or secrets are visible.
 
-Add your screenshot here.
+
 
 ---
 
@@ -63,7 +62,7 @@ Prepare Dockerfiles for the frontend and backend services and build both service
 
 Add a screenshot showing the completed `frontend/Dockerfile`.
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss3.png)
 
 ---
 
@@ -71,7 +70,7 @@ Add your screenshot here.
 
 Add a screenshot showing the completed `backend/Dockerfile`.
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss4.png)
 
 ---
 
@@ -83,7 +82,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker compose build
 ```
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss5.png)
 
 ---
 
@@ -105,7 +104,7 @@ Add a screenshot showing the MySQL service in `docker-compose.yml`, including:
 - `mysql_data` volume mount
 - No published MySQL port
 
-Add your screenshot here.
+
 
 ---
 
@@ -118,7 +117,7 @@ Add a screenshot showing the backend service configuration, including:
 - Browser frontend origin configured for CORS
 - Published backend port
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss7.png)
 
 ---
 
@@ -130,7 +129,7 @@ Add a screenshot showing the frontend service configuration, including:
 - `depends_on` for the backend service
 - Browser-facing `NEXT_PUBLIC_API_URL`
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss8.png)
 
 ---
 
@@ -138,7 +137,7 @@ Add your screenshot here.
 
 Add a screenshot showing the `mysql_data` volume definition in `docker-compose.yml`.
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss9.png)
 
 ---
 
@@ -160,7 +159,7 @@ docker compose ps
 
 The output must show the MySQL, backend, and frontend services running. MySQL must show as healthy.
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss10.png)
 
 ---
 
@@ -174,7 +173,7 @@ docker compose logs mysql backend --tail=50
 
 The logs must show MySQL readiness and successful backend database connection.
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss11.png)
 
 ---
 
@@ -192,7 +191,7 @@ Add a browser screenshot showing successful user registration or login.
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss12.png)
 
 ---
 
@@ -202,7 +201,7 @@ Add a browser screenshot showing a created book review visible in the applicatio
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss13.png)
 
 ---
 
@@ -213,7 +212,7 @@ Add a browser developer-tools screenshot with:
 - The Network tab showing a successful API request
 - The Console drawer showing no CORS error after the API interaction
 
-Add your screenshot here.
+
 
 ---
 
@@ -231,7 +230,7 @@ Add a browser screenshot showing the registered user or created review before th
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss15.png)
 
 ---
 
@@ -247,17 +246,17 @@ docker compose ps
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+![alt text](screenshots/Ass6-ss16.png)
 
 ---
 
 #### Screenshot 17 — Data After Restart
 
-Add a browser screenshot showing the same registered user or review after the stack restarts.
 
-Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+
+
+
 
 ---
 
@@ -279,19 +278,27 @@ Write a short explanation of 5–8 lines covering:
 
 Write your explanation here.
 
+The `docker compose down` command stops and removes the Compose containers and default networks but preserves named volumes by default.  
+Named volumes should be kept when preserving MySQL data because they store database files independently of the containers.  
+When named volumes are removed using `docker compose down -v`, the stored MySQL data is permanently deleted.  
+A full reset is useful when starting a fresh environment, troubleshooting configuration issues, or removing all previous application data.  
+The full reset should only be performed when intentionally discarding the existing data.  
+It must not be used before capturing persistence evidence because removing the volumes would destroy the data needed to demonstrate that persistence works.  
+Therefore, always capture the required screenshots and verify important data before performing a full reset.
+
 ---
 
 # Final Public Frontend URL
 
-**Frontend URL:** `http://<VM_PUBLIC_IP>:<FRONTEND_PORT>`
+**Frontend URL:** 
 
-Replace the placeholder with your working application URL.
+
 
 ---
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+**Your Fork or Repository URL:** 
 
 ---
 
@@ -303,11 +310,11 @@ Create a LinkedIn post about the Book Review App deployment and what you learned
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** 
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of your published LinkedIn post here.
+
 
 ---
 

@@ -26,7 +26,7 @@ Add a screenshot of Docker Hub showing your newly created public repository:
 my-react-app
 ```
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss1.png)
 
 ---
 
@@ -40,7 +40,7 @@ Login Succeeded
 
 Ensure that your full name is visible and that no password, Personal Access Token, or device code is exposed.
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss2.png)
 
 ---
 
@@ -54,7 +54,7 @@ docker image ls <YOUR_DOCKERHUB_USERNAME>/my-react-app
 
 The output must show the `latest` tag.
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss3.png)
 
 ---
 
@@ -68,7 +68,7 @@ docker push <YOUR_DOCKERHUB_USERNAME>/my-react-app:latest
 
 The output must include a pushed status or image digest.
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss4.png)
 
 ---
 
@@ -76,7 +76,7 @@ Add your screenshot here.
 
 Add a screenshot of your Docker Hub repository showing the uploaded `latest` image tag.
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss5.png)
 
 ---
 
@@ -88,7 +88,7 @@ Add a screenshot of the terminal showing:
 - Successful `docker pull` output
 - `docker image ls` showing the pulled image
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss6.png)
 
 ---
 
@@ -106,7 +106,7 @@ The output must show the running `react-container` with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss7.png)
 
 ---
 
@@ -120,7 +120,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![alt text](screenshots/Ass5-ss8.png)
 
 ---
 
@@ -139,6 +139,12 @@ Write a short explanation covering:
 - Why production deployments should use versioned image tags instead of relying only on `latest`
 
 Write your explanation here.
+
+1. **Why Image Tagging Is Required:** Image tagging identifies a Docker image with a specific name and version, making it possible to reference and push the correct image to Docker Hub.
+
+2. **Why a Container Registry Is Useful:** A container registry provides a central location for storing, managing, and distributing Docker images, allowing development and deployment teams to share images across different environments and CI/CD pipelines.
+
+3. **Why Production Should Use Versioned Image Tags:** Production deployments should use specific versioned tags, such as `myapp:v1.0.0`, instead of relying only on `latest`. Versioned tags make deployments predictable, improve traceability, simplify rollbacks, and prevent unexpected changes when a newer image is pushed.
 
 ---
 
@@ -160,15 +166,15 @@ Include:
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
+
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+
 
 ---
 

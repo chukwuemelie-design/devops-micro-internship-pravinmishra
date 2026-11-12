@@ -40,11 +40,11 @@ Add your screenshot here.
 
 **1. What is the purpose of a readiness probe?**
 
-Add your answer here.
+A readiness probe checks whether a container is ready to accept traffic. Kubernetes uses the result to determine whether the Pod should receive traffic through its Service.
 
 **2. Why is a Pod being Running not always enough to confirm it can serve traffic?**
 
-Add your answer here.
+Running only means the container has started. The application inside it may still be initializing, loading dependencies, or experiencing errors. A readiness probe confirms whether it is actually ready to handle requests.
 
 ---
 
@@ -78,15 +78,15 @@ Add your screenshot here.
 
 **1. How many replicas does this Deployment maintain?**
 
-Add your answer here.
+The Deployment maintains two replicas of the NGINX Pod.
 
 **2. What does `maxUnavailable: 0` mean during a rolling update?**
 
-Add your answer here.
+It means Kubernetes must not allow the number of available Pods to fall below the desired replica count during a rolling update. Existing healthy Pods remain available while replacements are created.
 
 **3. Is a readiness probe configured in this baseline Deployment?**
 
-Add your answer here.
+No. The baseline Deployment does not have a readiness probe configured.
 
 ---
 
@@ -120,19 +120,19 @@ Add your screenshot here.
 
 **1. What path and port does the readiness probe check?**
 
-Add your answer here.
+It checks the HTTP path / on port 80.
 
 **2. What does `initialDelaySeconds: 2` do?**
 
-Add your answer here.
+It tells Kubernetes to wait two seconds after the container starts before performing the first readiness probe.
 
 **3. What does `periodSeconds: 5` do?**
 
-Add your answer here.
+It tells Kubernetes to perform the readiness check every five seconds.
 
 **4. What must happen before Kubernetes considers this Pod ready?**
 
-Add your answer here.
+The NGINX container must respond successfully to the HTTP readiness check on the configured path and port. Kubernetes then marks the Pod as Ready.
 
 ---
 
@@ -172,19 +172,19 @@ Add your screenshot here.
 
 **1. Why did the readiness probe fail?**
 
-Add your answer here.
+The readiness probe failed because it was configured to check /does-not-exist, a path that NGINX does not serve successfully. The HTTP request returned an unsuccessful response.
 
 **2. What happened to the Pod readiness status?**
 
-Add your answer here.
+The Pod remained Running, but its readiness status changed to False. Kubernetes therefore treated it as not ready to receive traffic.
 
 **3. Why did the rollout fail to complete?**
 
-Add your answer here.
+The rollout could not complete because the new Pod failed its readiness checks. Kubernetes waited for a ready replacement before proceeding with the rolling update.
 
 **4. How did you restore the Deployment successfully?**
 
-Add your answer here.
+I restored the correct readiness probe path to / on port 80 and applied the corrected Deployment configuration. The readiness checks then succeeded, and the rollout completed successfully.
 
 ---
 
@@ -236,19 +236,19 @@ Add your screenshot here.
 
 **1. What happened during the successful rolling update?**
 
-Add your answer here.
+Kubernetes gradually created new Pods, waited for them to become Ready, and then replaced the old Pods. The application remained available throughout the update.
 
 **2. Why did Kubernetes create a new ReplicaSet?**
 
-Add your answer here.
+A change to the Deployment's Pod template triggered Kubernetes to create a new ReplicaSet. The new ReplicaSet manages Pods using the updated configuration.
 
 **3. Why were the new Pods unable to replace the existing healthy Pods after readiness was broken?**
 
-Add your answer here.
+The new Pods failed their readiness probes and were not considered available. Kubernetes therefore kept the existing healthy Pods running instead of replacing them with unready Pods.
 
 **4. How does `maxUnavailable: 0` protect availability during this rollout?**
 
-Add your answer here.
+It prevents Kubernetes from reducing the number of available Pods below the desired replica count during the rolling update. This helps ensure that healthy Pods remain available while new Pods are being tested.
 
 ---
 
@@ -262,11 +262,10 @@ Share what you learned about Kubernetes readiness probes and how they protect ro
 
 #### Screenshot 18 — Published LinkedIn post
 
-Add your screenshot here.
+
 
 #### Linkedin post link
 
-Add your post link here
 
 ---
 

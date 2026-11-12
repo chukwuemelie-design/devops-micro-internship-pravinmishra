@@ -70,7 +70,7 @@ Add a screenshot of the Infrastructure Pipeline run showing:
 * `backend_private_ip`
 * `mysql_fqdn`
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss1Real.png)
 
 > Do not expose the MySQL password, Client Secret, Terraform state, SSH private key, or another sensitive value.
 
@@ -86,7 +86,7 @@ Add a screenshot of the Azure Portal Resource Group overview showing:
 * Azure Database for MySQL Flexible Server
 * Related EpicBook resources
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss2.png)
 
 > Hide sensitive IDs, credentials, and database details.
 
@@ -124,7 +124,7 @@ Run the Application Pipeline to configure the VMs, deploy EpicBook, and verify t
 
 Add a screenshot of the Application Pipeline run summary showing all required stages or jobs succeeded.
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss3.png)
 
 ---
 
@@ -137,7 +137,7 @@ Add a screenshot of the Application Pipeline log showing:
 * Zero failed hosts
 * Zero unreachable hosts
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss4.png)
 
 > Do not expose the SSH private key, MySQL password, Client Secret, or complete database connection string.
 
@@ -162,7 +162,7 @@ Add a browser screenshot showing:
 
 The screenshot may show a product, cart, or successful order view.
 
-Add your screenshot here.
+![alt text](screenshots/Ass4-ss5.png)
 
 > Do not expose credentials or sensitive information.
 
@@ -172,15 +172,15 @@ Add your screenshot here.
 
 ## Frontend Application URL
 
-[Paste your final EpicBook application URL here.]
+http://16.170.247.69/
 
 ## Infrastructure Repository URL
 
-[Paste your Infrastructure Repository URL here.]
+
 
 ## Application Repository URL
 
-[Paste your Application Repository URL here.]
+
 
 ---
 
@@ -188,7 +188,7 @@ Add your screenshot here.
 
 Write a short explanation of why separate Infrastructure and Application Repositories were used.
 
-[Write your explanation here.]
+I successfully automated the EpicBook deployment on Microsoft Azure using two separate GitHub repositories and two Azure DevOps pipelines. I configured Terraform to provision the required Azure infrastructure and used Ansible to configure the frontend and backend servers, prepare the database connection, configure Nginx, and deploy the EpicBook application. I created and executed separate Infrastructure and Application pipelines, both of which completed successfully. This demonstrated how infrastructure provisioning and application deployment can be automated independently using Terraform, Ansible, GitHub, and Azure DevOps.
 
 ---
 
@@ -201,7 +201,7 @@ Write a short explanation of how the following non-sensitive Terraform outputs w
 * `backend_private_ip`
 * `mysql_fqdn`
 
-[Write your explanation here.]
+Separate Infrastructure and Application repositories were used to maintain a clear separation of responsibilities. The Infrastructure repository contains Terraform configurations for provisioning Azure resources, while the Application repository contains Ansible playbooks and application deployment configurations. This separation makes the project easier to maintain, troubleshoot, update, and manage independently while allowing both pipelines to work together to deliver the complete application.
 
 ---
 
@@ -216,11 +216,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+
 
 Your post must include:
 

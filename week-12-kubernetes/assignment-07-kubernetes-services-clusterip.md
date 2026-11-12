@@ -38,11 +38,11 @@ Add your screenshot here.
 
 **1. Why is it not reliable to communicate with an application using a Pod IP address?**
 
-Add your answer here.
+Pod IP addresses are temporary and can change when Pods are restarted, replaced, or recreated. Relying on them directly makes application communication unreliable.
 
 **2. What Kubernetes resource provides a stable internal address for a group of Pods?**
 
-Add your answer here.
+A Kubernetes Service, specifically a ClusterIP Service, provides a stable internal IP address and DNS name for accessing a group of Pods.
 
 ---
 
@@ -70,15 +70,15 @@ Add your screenshot here.
 
 **1. Which label will the Service use to find these Pods?**
 
-Add your answer here.
+The Service will use the label app: nginx to identify and select the NGINX Pods.
 
 **2. Why is readiness important before connecting Pods to a Service?**
 
-Add your answer here.
+Readiness ensures that only Pods ready to handle requests are included as available Service backends. This prevents traffic from being sent to unhealthy or uninitialized Pods.
 
 **3. What port does the NGINX container listen on?**
 
-Add your answer here.
+NGINX listens on port 80.
 
 ---
 
@@ -106,19 +106,19 @@ Add your screenshot here.
 
 **1. What is the purpose of a ClusterIP Service?**
 
-Add your answer here.
+A ClusterIP Service provides a stable internal IP address and DNS name that allows applications inside the Kubernetes cluster to communicate with a group of Pods.
 
 **2. What is the difference between `port` and `targetPort`?**
 
-Add your answer here.
+port is the port exposed by the Service for clients to access. targetPort is the port on the backend container where the application receives traffic.
 
 **3. Why must the Service selector match the Pod labels?**
 
-Add your answer here.
+The selector must match the Pod labels so Kubernetes can identify the correct backend Pods and route Service traffic to them.
 
 **4. What information do EndpointSlices contain?**
 
-Add your answer here.
+EndpointSlices contain information about the network endpoints associated with a Service, including backend Pod IP addresses, ports, readiness conditions, and other endpoint details.
 
 ---
 
@@ -152,15 +152,15 @@ Add your screenshot here.
 
 **1. Why should an application use `nginx-svc` instead of a Pod IP address?**
 
-Add your answer here.
+nginx-svc provides a stable Service DNS name. Applications can continue accessing the Service even when backend Pods are replaced and their IP addresses change.
 
 **2. What does the DNS name `nginx-svc.default.svc.cluster.local` represent?**
 
-Add your answer here.
+It is the fully qualified DNS name of the nginx-svc Service in the default namespace within the Kubernetes cluster.
 
 **3. Why can the client access the Service even if the backend Pod IPs change?**
 
-Add your answer here.
+The Service maintains a stable ClusterIP and DNS name. Kubernetes automatically updates its endpoints when Pods are replaced, allowing traffic to reach the current healthy backend Pods.
 
 ---
 
@@ -200,15 +200,15 @@ Add your screenshot here.
 
 **1. Why did the Service endpoints become empty?**
 
-Add your answer here.
+The Service selector was changed to an incorrect label that did not match the NGINX Pod labels. Kubernetes could no longer find matching backend Pods, so the Service had no usable endpoints.
 
 **2. What caused the request from the client Pod to fail?**
 
-Add your answer here.
+The request failed because the Service had no matching backend endpoints to receive and process the traffic.
 
 **3. How did you restore connectivity to the NGINX Pods?**
 
-Add your answer here.
+I restored the Service selector to match the correct NGINX Pod label, app: nginx, and applied the updated configuration. Kubernetes then populated the Service endpoints again, restoring connectivity.
 
 ---
 
@@ -254,15 +254,15 @@ Add your screenshot here.
 
 **1. Why was the new NotReady Pod excluded from ready Service backends?**
 
-Add your answer here.
+The new Pod failed its readiness probe, so Kubernetes marked it as NotReady. It was therefore excluded from the ready Service backends.
 
 **2. What is the relationship between readiness probes and Service routing?**
 
-Add your answer here.
+Readiness probes determine whether Pods are ready to receive traffic. Kubernetes uses their readiness status when managing Service endpoints, directing traffic to ready Pods rather than unready ones.
 
 **3. Why does this behavior protect users from unhealthy application instances?**
 
-Add your answer here.
+It prevents user requests from being routed to Pods that are not ready to handle them. This helps maintain application availability and reduces failed requests during deployments or application initialization.
 
 ---
 
@@ -276,11 +276,11 @@ Share what you learned about ClusterIP Services, Kubernetes DNS, selectors, and 
 
 #### Screenshot 18 — Published LinkedIn post
 
-Add your screenshot here.
+
 
 #### Linkedin post link
 
-Paste your link here
+
 
 ---
 
