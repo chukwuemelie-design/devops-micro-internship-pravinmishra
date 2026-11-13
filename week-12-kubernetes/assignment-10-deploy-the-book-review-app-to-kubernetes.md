@@ -12,7 +12,7 @@ Deploy the Book Review App as a production-style three-tier application using Ku
 
 ## Submission Details
 
-**Full Name:** Add your full name here.
+**Full Name:** Nebeolisa Chiemelie Kelvin
 
 **Kubernetes Platform:** Add your platform here.
 
@@ -38,7 +38,8 @@ Prepare the cluster, application source, container images, and tooling needed fo
 
 #### Screenshot 1 — Active Kubernetes context and Ready nodes
 
-Add your screenshot here.
+<img width="925" height="139" alt="Ass10-ss1" src="https://github.com/user-attachments/assets/e97ead60-2f91-4e82-bc03-a0a7f050557e" />
+
 
 ---
 
@@ -46,7 +47,7 @@ Add your screenshot here.
 
 Required only if you choose Helm. Skip this screenshot if using YAML manifests.
 
-Add your screenshot here, or write “Not applicable — using YAML manifests.”
+Not applicable — using YAML manifests
 
 ---
 
@@ -60,7 +61,7 @@ Document the workloads, networking, configuration, storage, and permitted commun
 
 #### Screenshot 3 — Completed Kubernetes architecture diagram
 
-Add your screenshot here.
+
 
 ---
 
@@ -74,13 +75,15 @@ Provide application configuration and credentials without embedding sensitive va
 
 #### Screenshot 4 — ConfigMap configuration or describe output showing non-sensitive values
 
-Add your screenshot here.
+<img width="518" height="224" alt="Ass10-ss4" src="https://github.com/user-attachments/assets/c0f030b9-7b41-4476-bfbb-c60d117d852a" />
+
 
 ---
 
 #### Screenshot 5 — Secret references or describe output showing names and keys without sensitive values
 
-Add your screenshot here.
+<img width="628" height="216" alt="Ass10-ss5" src="https://github.com/user-attachments/assets/18034321-b053-4573-a1ba-f02ea115cf06" />
+
 
 ---
 
@@ -94,13 +97,15 @@ Provide persistent MySQL storage and allow the backend to connect without exposi
 
 #### Screenshot 6 — Managed MySQL status or MySQL StatefulSet and PVC status
 
-Add your screenshot here.
+<img width="904" height="151" alt="Ass10-ss6" src="https://github.com/user-attachments/assets/e71a05e9-c04a-4cd2-8600-146928283089" />
+
 
 ---
 
 #### Screenshot 7 — Successful database connectivity or schema verification with credentials hidden
 
-Add your screenshot here.
+<img width="566" height="252" alt="Ass10-ss7" src="https://github.com/user-attachments/assets/694ac136-1fe3-444d-8e78-d04521f66341" />
+
 
 ---
 
@@ -114,7 +119,8 @@ Run one or two Node.js/Express backend replicas on port 3001 and expose them thr
 
 #### Screenshot 8 — Backend Deployment, ready Pods, and internal Service
 
-Add your screenshot here.
+<img width="637" height="196" alt="Ass10-ss8" src="https://github.com/user-attachments/assets/d7d982ba-f390-4201-a175-ceb791c03a39" />
+
 
 ---
 
@@ -122,7 +128,8 @@ Add your screenshot here.
 
 If the application does not log successful database connections, provide a successful database-backed request alongside the startup logs.
 
-Add your screenshot here.
+<img width="672" height="370" alt="Ass10-ss9" src="https://github.com/user-attachments/assets/cc4155e4-4ae1-449f-9b80-5007e823fcd5" />
+
 
 ---
 
@@ -136,13 +143,15 @@ Run the Next.js frontend behind Nginx on port 80 and proxy API requests to the i
 
 #### Screenshot 10 — Frontend Deployment and Ready Pods
 
-Add your screenshot here.
+<img width="615" height="284" alt="Ass10-ss10" src="https://github.com/user-attachments/assets/fdbc2eec-d0ba-4185-a564-76127d8c2ab6" />
+
 
 ---
 
 #### Screenshot 11 — Nginx reverse-proxy configuration showing the internal backend Service name and port 3001
 
-Add your screenshot here.
+<img width="652" height="105" alt="Ass10-ss11" src="https://github.com/user-attachments/assets/0c66d259-f066-4c0c-84aa-311131dc1808" />
+
 
 ---
 
@@ -156,13 +165,15 @@ Expose the frontend and enforce the intended communication path between applicat
 
 #### Screenshot 12 — Frontend LoadBalancer or Ingress configuration and assigned endpoint, or documented local access method
 
-Add your screenshot here.
+<img width="887" height="166" alt="Ass10-ss12" src="https://github.com/user-attachments/assets/caa228c1-6c39-4276-af0a-c25c01c96db3" />
+
 
 ---
 
 #### Screenshot 13 — Internal backend Service and NetworkPolicy or equivalent restriction, with access-test evidence
 
-Add your screenshot here.
+<img width="679" height="400" alt="Ass10-ss13" src="https://github.com/user-attachments/assets/e9eb3325-7e14-4076-a8ff-9bf08e91d357" />
+
 
 ---
 
@@ -176,31 +187,35 @@ Prove that the frontend, backend, and MySQL database work together and collect o
 
 #### Screenshot 14 — `kubectl get all` output for the book-review namespace
 
-Add your screenshot here.
+<img width="679" height="400" alt="Ass10-ss14" src="https://github.com/user-attachments/assets/804d7bd5-b478-4755-903c-78ddc4a72dc8" />
+
 
 ---
 
 #### Screenshot 15 — Functional Book Review App in the browser with the URL visible, including evidence of a successful user flow
 
-Add your screenshot here.
+<img width="957" height="439" alt="Ass10-ss15" src="https://github.com/user-attachments/assets/ca266369-512c-4794-96de-55b6d3fdab5e" />
+
 
 ---
 
 #### Screenshot 16 — Frontend or Nginx container logs
 
-Add your screenshot here.
+<img width="911" height="446" alt="Ass10-ss16" src="https://github.com/user-attachments/assets/6ad894c8-6825-4daf-bc0b-520041874687" />
+
 
 ---
 
 #### Screenshot 17 — Backend logs and evidence of a successful database-backed operation
 
-Add your screenshot here.
+<img width="869" height="410" alt="Ass10-ss17" src="https://github.com/user-attachments/assets/16405a8f-9d89-44e1-ad7c-e1fc121c566a" />
+
 
 ---
 
 #### Screenshot 18 — Optional: Kubernetes dashboard
 
-Add your screenshot here, or write “Not attempted.”
+
 
 Multiple images may be included under a screenshot number when needed to demonstrate the complete user flow.
 
@@ -216,7 +231,7 @@ Add selected improvements without breaking the required three-tier architecture.
 
 #### Screenshot 19 — Optional: Evidence of selected Helm, HPA, probe, or TLS improvements
 
-Add your screenshot here, or write “Not attempted.”
+
 
 ---
 
@@ -230,11 +245,11 @@ Explain your three-tier architecture, demonstrate the working application, and s
 
 #### Screenshot 20 — Published LinkedIn post about your Book Review App deployment on Kubernetes
 
-Add your screenshot here.
+
 
 ### LinkedIn Post URL
 
-Add your published LinkedIn post URL here.
+
 
 ---
 
