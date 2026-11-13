@@ -30,7 +30,8 @@ Create and enter a dedicated directory for the liveness-probe lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/health-probes-liveness`
 
-Add your screenshot here.
+<img width="594" height="131" alt="Ass6-ss1" src="https://github.com/user-attachments/assets/ac2187d7-5bfe-4a99-a1e7-68015c83626a" />
+
 
 ---
 
@@ -56,19 +57,22 @@ Create a baseline NGINX Deployment with two replicas and no health probes.
 
 #### Screenshot 2 — Completed `00-nginx-deploy-baseline.yaml` manifest
 
-Add your screenshot here.
+<img width="563" height="370" alt="Ass6-ss2" src="https://github.com/user-attachments/assets/c5c644a9-a0c6-49bf-959e-45dbcbaa1b63" />
+
 
 ---
 
 #### Screenshot 3 — Output showing a successful rollout and two running NGINX Pods
 
-Add your screenshot here.
+<img width="851" height="189" alt="Ass6-ss3" src="https://github.com/user-attachments/assets/19b769fb-cca4-4a1d-afd2-fbd72f13cb5e" />
+
 
 ---
 
 #### Screenshot 4 — Relevant output from `kubectl describe deployment nginx-deployment`
 
-Add your screenshot here.
+<img width="710" height="341" alt="Ass6-ss4" src="https://github.com/user-attachments/assets/42d667ca-9c59-4be2-8eba-80ef3eb7fa12" />
+
 
 ---
 
@@ -98,19 +102,22 @@ Add an HTTP liveness probe so Kubernetes can periodically check whether the NGIN
 
 #### Screenshot 5 — Completed `01-nginx-deploy-liveness.yaml` manifest showing the liveness probe
 
-Add your screenshot here.
+<img width="729" height="278" alt="Ass6-ss5" src="https://github.com/user-attachments/assets/0e5e4a3d-a50a-4ce3-bb0d-7efd0e61ba37" />
+
 
 ---
 
 #### Screenshot 6 — Output showing successful rollout and running Pods
 
-Add your screenshot here.
+<img width="677" height="263" alt="Ass6-ss6" src="https://github.com/user-attachments/assets/4352eb49-632e-4c6a-bb01-919f45659e24" />
+
 
 ---
 
 #### Screenshot 7 — Pod description showing liveness-probe details
 
-Add your screenshot here.
+<img width="843" height="380" alt="Ass6-ss7" src="https://github.com/user-attachments/assets/ff9bd19f-4bff-4f5a-8d0e-2e004344b3f6" />
+
 
 ---
 
@@ -144,25 +151,29 @@ Intentionally make the liveness probe fail and observe Kubernetes restart the un
 
 #### Screenshot 8 — `02-nginx-liveness-broken.yaml` showing `/does-not-exist`
 
-Add your screenshot here.
+<img width="359" height="146" alt="Ass6-ss8" src="https://github.com/user-attachments/assets/36c220b0-4bee-4f87-b1c1-fb9e70973169" />
+
 
 ---
 
 #### Screenshot 9 — Pod output showing an increased RESTARTS count
 
-Add your screenshot here.
+<img width="604" height="239" alt="Ass6-ss9" src="https://github.com/user-attachments/assets/2403c4aa-69c4-46a7-8a9a-f9bb5dc67115" />
+
 
 ---
 
 #### Screenshot 10 — Pod description showing liveness-probe failure events or restart details
 
-Add your screenshot here.
+<img width="869" height="279" alt="Ass6-ss10" src="https://github.com/user-attachments/assets/a878cfd4-ef53-4f0d-a3aa-578a1b61bc01" />
+
 
 ---
 
 #### Screenshot 11 — Output showing stable running Pods after applying the fixed configuration
 
-Add your screenshot here.
+<img width="681" height="273" alt="Ass6-ss11" src="https://github.com/user-attachments/assets/cb172eff-9d07-4116-98e9-c02ff4dad88a" />
+
 
 ---
 
@@ -200,7 +211,7 @@ Complete this section only if you attempt Task 5. Otherwise, mark it as “Not a
 
 #### Optional Screenshot — Pod output showing the RESTARTS count increasing during the restart-loop observation
 
-Add your screenshot here if attempted.
+
 
 No specific restart count or CrashLoopBackOff status is required.
 
