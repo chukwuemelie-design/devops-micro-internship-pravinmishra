@@ -30,7 +30,8 @@ Create and enter a dedicated directory for the ClusterIP Service lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/services/clusterip`
 
-Add your screenshot here.
+<img width="431" height="125" alt="Ass7-ss1" src="https://github.com/user-attachments/assets/1a195d1d-66e0-4a9d-a635-d0e422c4405d" />
+
 
 ---
 
@@ -56,13 +57,15 @@ Create an NGINX Deployment with labels, readiness probes, and liveness probes th
 
 #### Screenshot 2 — Completed `00-nginx-deploy.yaml` manifest
 
-Add your screenshot here.
+<img width="671" height="370" alt="Ass7-ss2" src="https://github.com/user-attachments/assets/cc8d20c1-8af9-43c4-bdab-22fa736927d7" />
+
 
 ---
 
 #### Screenshot 3 — Output showing successful rollout and two ready NGINX Pods
 
-Add your screenshot here.
+<img width="874" height="308" alt="Ass7-ss3" src="https://github.com/user-attachments/assets/57560dbd-fefa-46f7-a7bf-91df2e19344c" />
+
 
 ---
 
@@ -92,13 +95,15 @@ Create a stable internal Service that routes traffic to the NGINX Pods.
 
 #### Screenshot 4 — Completed `01-nginx-svc-clusterip.yaml` manifest
 
-Add your screenshot here.
+<img width="635" height="275" alt="Ass7-ss4" src="https://github.com/user-attachments/assets/cc3400cc-2acc-46da-8218-a729d655574a" />
+
 
 ---
 
 #### Screenshot 5 — Output showing the ClusterIP Service, endpoints, or EndpointSlices
 
-Add your screenshot here.
+<img width="594" height="372" alt="Ass7-ss5" src="https://github.com/user-attachments/assets/2b0bd368-b493-4c32-8e4d-ec2988e77bcc" />
+
 
 ---
 
@@ -132,19 +137,22 @@ Create a client Pod and access the NGINX Service using DNS and its ClusterIP.
 
 #### Screenshot 6 — Output showing the `tester` Pod running
 
-Add your screenshot here.
+<img width="524" height="200" alt="Ass7-ss6" src="https://github.com/user-attachments/assets/63e20f6e-dbcf-48ba-b2fb-a0c3ab321875" />
+
 
 ---
 
 #### Screenshot 7 — Successful Service request using DNS name and ClusterIP
 
-Add your screenshot here.
+<img width="821" height="267" alt="Ass7-ss7" src="https://github.com/user-attachments/assets/71ca267e-c510-464d-9884-8dc5e4acc310" />
+
 
 ---
 
 #### Screenshot 8 — Successful DNS lookup for the Service
 
-Add your screenshot here.
+<img width="631" height="245" alt="Ass7-ss8" src="https://github.com/user-attachments/assets/59c9c371-214b-465a-9fc8-ec047ea98f4d" />
+
 
 ---
 
@@ -174,25 +182,29 @@ Break the Service selector, observe that usable endpoints disappear, and then re
 
 #### Screenshot 9 — `02-nginx-svc-selector-broken.yaml` showing the incorrect selector
 
-Add your screenshot here.
+<img width="633" height="243" alt="Ass7-ss9" src="https://github.com/user-attachments/assets/9f59f48b-6c9c-4a3f-8a77-92dad95e5d2a" />
+
 
 ---
 
 #### Screenshot 10 — Empty endpoints or EndpointSlice output after applying the broken selector
 
-Add your screenshot here.
+<img width="646" height="119" alt="Ass7-ss10" src="https://github.com/user-attachments/assets/9e8761b9-10b2-4d0b-b003-191ce3aa8cf5" />
+
 
 ---
 
 #### Screenshot 11 — Failed request output from the `tester` Pod
 
-Add your screenshot here.
+<img width="616" height="194" alt="Ass7-ss11" src="https://github.com/user-attachments/assets/8c2cf438-e034-4936-9be1-8fbdd8bef594" />
+
 
 ---
 
 #### Screenshot 12 — Restored endpoints and successful Service request
 
-Add your screenshot here.
+<img width="557" height="198" alt="Ass7-ss12" src="https://github.com/user-attachments/assets/c78bdef1-fc37-448f-8e2c-6e5a79cb36b5" />
+
 
 ---
 
@@ -222,31 +234,36 @@ Observe how a new Pod that fails readiness is excluded from ready Service backen
 
 #### Screenshot 13 — Output showing the Deployment scaled to one ready Pod
 
-Add your screenshot here.
+<img width="542" height="128" alt="Ass7-ss13" src="https://github.com/user-attachments/assets/15b99eea-b3bd-4966-b40e-95f70aeea457" />
+
 
 ---
 
 #### Screenshot 14 — Completed `03-readiness-broken.yaml` patch file
 
-Add your screenshot here.
+<img width="545" height="232" alt="Ass7-ss14" src="https://github.com/user-attachments/assets/94c80cc5-5b01-4ac0-9634-0e36abea813b" />
+
 
 ---
 
 #### Screenshot 15 — Output showing the expected incomplete rollout or NotReady Pod
 
-Add your screenshot here.
+<img width="669" height="148" alt="Ass7-ss15" src="https://github.com/user-attachments/assets/67476e4f-0718-4b88-adad-520f2b8772bd" />
+
 
 ---
 
 #### Screenshot 16 — EndpointSlice output showing the healthy Pod with `ready: true` and the new NotReady Pod with `ready: false`
 
-Add your screenshot here.
+<img width="803" height="375" alt="Ass7-ss16" src="https://github.com/user-attachments/assets/e70903b0-ff1b-4384-9a37-79a14419f28f" />
+
 
 ---
 
 #### Screenshot 17 — Service EndpointSlice output showing ready backends after restoring the Deployment
 
-Add your screenshot here.
+<img width="880" height="191" alt="Ass7-ss17" src="https://github.com/user-attachments/assets/d125b00e-7197-403f-8aaf-a3500f85f8d7" />
+
 
 ---
 
