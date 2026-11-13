@@ -80,7 +80,6 @@ Define the project configuration, incident workflow, and safety boundary for Cla
 
 
 
-
 ### Notes
 
 **1. Why does Claude need project-specific cluster rules?**
