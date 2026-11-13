@@ -20,7 +20,8 @@ Create and enter a dedicated directory for the NodePort Service lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/services/nodeport`
 
-Add your screenshot here.
+<img width="480" height="101" alt="Ass8-ss1" src="https://github.com/user-attachments/assets/2a4062e9-8d73-4bdf-b419-b986c627fbf9" />
+
 
 ### Notes
 
@@ -44,13 +45,15 @@ Create a healthy NGINX Deployment that can act as the backend for the NodePort S
 
 #### Screenshot 2 — Completed `00-nginx-deploy.yaml` manifest
 
-Add your screenshot here.
+<img width="626" height="372" alt="Ass8-ss2" src="https://github.com/user-attachments/assets/0f463acc-8205-467f-a9e9-716ebe36048f" />
+
 
 ---
 
 #### Screenshot 3 — Output showing successful rollout and two ready NGINX Pods
 
-Add your screenshot here.
+<img width="667" height="116" alt="Ass8-ss3" src="https://github.com/user-attachments/assets/7be2e6f8-98ab-4540-ad7b-bb2855bc2630" />
+
 
 ### Notes
 
@@ -78,13 +81,15 @@ Create a NodePort Service that exposes the NGINX application through a port on e
 
 #### Screenshot 4 — Completed `01-nginx-svc-nodeport.yaml` manifest
 
-Add your screenshot here.
+<img width="620" height="338" alt="Ass8-ss4" src="https://github.com/user-attachments/assets/863ba61a-665e-4580-96c6-2870597b794e" />
+
 
 ---
 
 #### Screenshot 5 — Output showing the NodePort Service and its endpoints or EndpointSlices
 
-Add your screenshot here.
+<img width="681" height="397" alt="Ass8-ss5" src="https://github.com/user-attachments/assets/ce6efdfe-2edd-4218-9230-edf48e075afc" />
+
 
 ### Notes
 
@@ -120,13 +125,15 @@ Find a reachable node IP and access the NodePort Service.
 
 #### Screenshot 6 — Output of `kubectl get nodes -o wide`
 
-Add your screenshot here.
+<img width="920" height="186" alt="Ass8-ss6" src="https://github.com/user-attachments/assets/97172c56-af2d-4bed-8ba3-693aa0e02405" />
+
 
 ---
 
 #### Screenshot 7 — Output showing the `tester` Pod running
 
-Add your screenshot here.
+<img width="469" height="71" alt="Ass8-ss7" src="https://github.com/user-attachments/assets/e8659b24-710e-458a-ae48-6311199b9ba2" />
+
 
 ---
 
@@ -134,7 +141,8 @@ Add your screenshot here.
 
 If neither route is supported by your environment, include the failed request output and ready endpoint evidence, and explain the limitation in your Notes.
 
-Add your screenshot here.
+<img width="785" height="194" alt="Ass8-ss8" src="https://github.com/user-attachments/assets/61ccda64-1e6a-4e30-881d-de32441c3850" />
+
 
 ### Notes
 
@@ -166,19 +174,22 @@ Complete the Evidence and Notes below only if you attempted this optional task.
 
 #### Screenshot 9 — `02-nginx-svc-selector-broken.yaml` showing the incorrect selector
 
-Add your screenshot here.
+<img width="814" height="331" alt="Ass8-ss9" src="https://github.com/user-attachments/assets/2e8ad2f1-b590-4471-8e27-9a3945f6ba7d" />
+
 
 ---
 
 #### Screenshot 10 — Empty endpoints or EndpointSlice output after applying the broken selector
 
-Add your screenshot here.
+<img width="869" height="278" alt="Ass8-ss10" src="https://github.com/user-attachments/assets/aaf4b117-f73f-4338-ad9e-2c3a1e351345" />
+
 
 ---
 
 #### Screenshot 11 — Restored endpoints or EndpointSlices after applying the original Service manifest
 
-Add your screenshot here.
+<img width="848" height="343" alt="Ass8-ss11" src="https://github.com/user-attachments/assets/603e82bd-e42c-4fe6-bd5e-5ecf3d814f13" />
+
 
 ### Notes
 
@@ -206,13 +217,15 @@ Delete one NGINX Pod and observe its replacement while the Service continues rou
 
 #### Screenshot 12 — Output of the Pod deletion command
 
-Add your screenshot here.
+<img width="632" height="74" alt="Ass8-ss12" src="https://github.com/user-attachments/assets/ff4236cf-9bb2-42d4-b371-a71a139129a8" />
+
 
 ---
 
 #### Screenshot 13 — Output showing the replacement Pod and two running, ready Pods
 
-Add your screenshot here.
+<img width="526" height="98" alt="Ass8-13" src="https://github.com/user-attachments/assets/5a2809a0-56d7-4aae-9fa2-78395adbf147" />
+
 
 ### Notes
 
