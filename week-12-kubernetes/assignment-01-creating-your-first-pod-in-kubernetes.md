@@ -74,7 +74,7 @@ Define the NGINX Pod in a YAML file, apply the manifest, and verify the resultin
 
 **1. What is the difference between imperative and declarative Pod creation?**
 
-Add your answer here.
+
 
 ---
 

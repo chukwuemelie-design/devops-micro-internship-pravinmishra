@@ -308,7 +308,7 @@ Write a short explanation covering:
 - How Task 2 proved Docker Volume persistence
 - Why Docker Volumes are commonly used for application data
 
-Write your explanation here.
+
 
 1. **Bind Mount vs Docker Volume:** A Bind Mount connects a specific directory or file on the host machine to a container, while a Docker Volume is managed by Docker and stored in its dedicated storage area.
 

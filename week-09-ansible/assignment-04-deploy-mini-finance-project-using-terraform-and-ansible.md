@@ -275,13 +275,13 @@ Paste your LinkedIn post URL here:
 
 **One challenge you faced and how you fixed it:**
 
-Add your answer here.
+
 
 ---
 
 **One real-world example where you can use this learning:**
 
-Add your answer here.
+I can use Terraform and Ansible together to deploy and manage a production website on AWS. Terraform can provision the required infrastructure, such as EC2 instances, security groups, and networking resources, while Ansible can install and configure Nginx, deploy website files, and verify that the website is accessible. This approach makes infrastructure provisioning and application deployment repeatable, consistent, and easier to maintain.
 
 ---
 
@@ -291,61 +291,61 @@ Answer the following in your own words:
 
 **1. What did you provision using Terraform in this assignment?**
 
-Add your answer here.
+I used Terraform to provision AWS infrastructure required for hosting the website, including an EC2 instance and a security group. The security group controls inbound traffic, allowing SSH access from my public IP address and HTTP traffic from the internet.
 
 ---
 
 **2. What did Ansible configure and deploy in this assignment?**
 
-Add your answer here.
+Ansible installed and configured the required web server (Nginx), deployed the website files to the EC2 instance, and verified that the website was responding correctly.
 
 ---
 
 **3. Why is SSH access on port `22` restricted to your public IP address?**
 
-Add your answer here.
+SSH access is restricted to my public IP address to reduce unauthorized access attempts. It ensures that only connections from my trusted network can remotely manage the EC2 instance, reducing its exposure to potential attackers.
 
 ---
 
 **4. Why is HTTP port `80` open to the internet?**
 
-Add your answer here.
+HTTP port 80 is open to the internet so that users can access the hosted website through a web browser. Unlike SSH, which is used for administration, HTTP provides public access to the website.
 
 ---
 
 **5. What is the purpose of the Ansible inventory file?**
 
-Add your answer here.
+The Ansible inventory file identifies the servers Ansible manages. It contains information such as the server's IP address, SSH username, connection details, and private key location, allowing Ansible to connect to the correct EC2 instance
 
 ---
 
 **6. Why does the playbook use separate plays for install, deploy, and verify?**
 
-Add your answer here.
+Separating the playbook into installation, deployment, and verification makes the automation easier to understand, manage, and troubleshoot. Each play has a specific responsibility: installing dependencies, deploying website files, and checking that the website works correctly.
 
 ---
 
 **7. Why is `rsync` useful when deploying website files?**
 
-Add your answer here.
+rsync transfers files efficiently by synchronizing changes between the local machine and the remote server. Instead of transferring every file repeatedly, it can transfer only changed files, saving time and bandwidth during deployment.
 
 ---
 
 **8. What does the Ansible `uri` module verify in this assignment?**
 
-Add your answer here.
+The Ansible uri module sends an HTTP request to the deployed website and checks the response. It verifies that the web server is accessible and returns the expected HTTP status code, such as 200 OK.
 
 ---
 
 **9. What issue did you face during this assignment, and how did you fix it?**
 
-Add your answer here.
+I encountered SSH connectivity and private key permission issues while connecting Ansible to the EC2 instance. I resolved the issue by copying the SSH private key into the appropriate location, setting the correct file permissions using chmod 600, and ensuring that the inventory file referenced the correct private key path.
 
 ---
 
 **10. What did you learn from using Terraform and Ansible together?**
 
-Add your answer here.
+I learned that Terraform and Ansible complement each other in infrastructure automation. Terraform provisions the cloud infrastructure, while Ansible configures the servers and deploys applications. Using both tools creates a more repeatable and efficient deployment workflow, reduces manual configuration, and improves consistency.
 
 ---
 

@@ -80,7 +80,7 @@ terraform-aws-epicbook/
 
 Add a screenshot of the VS Code Explorer showing the complete root project and the `network`, `ec2`, and `rds` module directory structure.
 
-Add your screenshot here.
+
 
 ---
 

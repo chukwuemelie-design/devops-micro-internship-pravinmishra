@@ -276,7 +276,7 @@ Write a short explanation of 5–8 lines covering:
 - When a full reset is useful
 - Why a full reset must not be used before persistence evidence is captured
 
-Write your explanation here.
+
 
 The `docker compose down` command stops and removes the Compose containers and default networks but preserves named volumes by default.  
 Named volumes should be kept when preserving MySQL data because they store database files independently of the containers.  
