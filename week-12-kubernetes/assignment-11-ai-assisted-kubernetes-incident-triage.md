@@ -78,6 +78,7 @@ Define the project configuration, incident workflow, and safety boundary for Cla
 
 #### Screenshot 3 — CLAUDE.md showing application configuration, workflow, safety rules, and output rules
 
+<img width="682" height="461" alt="Ass11-ss3" src="https://github.com/user-attachments/assets/c4937550-5005-4710-82fa-8467c157126e" />
 
 
 ### Notes
@@ -106,6 +107,7 @@ Ask Claude Code to explain the five health checks before running the supplied sc
 
 #### Screenshot 4 — Claude Code showing the five-check read-only plan
 
+<img width="930" height="481" alt="Ass11-ss4" src="https://github.com/user-attachments/assets/85cc0532-85c0-47a9-a0bc-7152195549e9" />
 
 
 
@@ -135,25 +137,29 @@ Configure the supplied triage script for the selected workload and validate its 
 
 #### Screenshot 5 — Script configuration variables and checks array
 
-Add your screenshot here.
+<img width="932" height="458" alt="Ass11-ss5" src="https://github.com/user-attachments/assets/10eac686-abd1-4cf4-a2be-e11e49d1ea4d" />
+
 
 ---
 
 #### Screenshot 6 — Functions for status, readiness, restarts, events, and Service backends
 
-Add your screenshot here.
+<img width="912" height="124" alt="Ass11-ss6" src="https://github.com/user-attachments/assets/e23bc8c4-0915-4b68-b56f-25a7e9e8883a" />
+
 
 ---
 
 #### Screenshot 7 — Preflight, summary, and exit-code logic
 
-Add your screenshot here.
+<img width="780" height="344" alt="Ass11-ss7" src="https://github.com/user-attachments/assets/6fe45eac-730c-498e-8656-293ba3cf18f4" />
+
 
 ---
 
 #### Screenshot 8 — Successful syntax validation and executable permission
 
-Add your screenshot here.
+<img width="503" height="118" alt="Ass11-ss8" src="https://github.com/user-attachments/assets/40b1de55-e8cb-4bb1-ae9a-e8f59fe80e18" />
+
 
 ### Notes
 
@@ -193,13 +199,15 @@ Run the script on the healthy application and confirm that it contains no failed
 
 #### Screenshot 9 — Baseline report showing your full name and all checks
 
-Add your screenshot here.
+<img width="838" height="419" alt="Ass11-ss9" src="https://github.com/user-attachments/assets/b1039c5d-af88-46f5-b3a7-a3838f17bede" />
+
 
 ---
 
 #### Screenshot 10 — Captured exit code and final summary
 
-Add your screenshot here.
+<img width="550" height="168" alt="Ass11-ss10" src="https://github.com/user-attachments/assets/b9f0f4d4-d96d-4e09-a537-521bf77bbd0f" />
+
 
 ### Notes
 
@@ -227,13 +235,15 @@ Connect the Bash script to a manually invoked Claude Code evidence-analysis work
 
 #### Screenshot 11 — SKILL.md showing frontmatter and safety rules
 
-Add your screenshot here.
+<img width="863" height="436" alt="Ass11-ss11" src="https://github.com/user-attachments/assets/0517e7ed-6a16-491b-a8b7-4af7a23ecf35" />
+
 
 ---
 
 #### Screenshot 12 — Baseline `/k8s-triage` analysis
 
-Add your screenshot here.
+<img width="931" height="406" alt="Ass11-ss12" src="https://github.com/user-attachments/assets/24475ed8-1185-4c28-a784-7fef6d7705ae" />
+
 
 ### Notes
 
@@ -260,19 +270,22 @@ Create one controlled failure, save its evidence, and let Claude analyze it with
 
 #### Screenshot 13 — Failed or unready Pod evidence and current Service backends
 
-Add your screenshot here.
+<img width="926" height="155" alt="Ass11-ss13" src="https://github.com/user-attachments/assets/88404f13-ce9e-4186-8021-4360f0cb52ac" />
+
 
 ---
 
 #### Screenshot 14 — Failed `/k8s-triage` analysis with evidence and a suggested manual recovery command
 
-Add your screenshot here.
+<img width="941" height="314" alt="Ass11-ss14" src="https://github.com/user-attachments/assets/575593cd-b4a0-400f-8af9-b8a212481d85" />
+
 
 ---
 
 #### Screenshot 15 — Saved `incident-failure-report.txt`
 
-Add your screenshot here.
+<img width="599" height="147" alt="Ass11-ss15" src="https://github.com/user-attachments/assets/47d5650a-674e-40ba-9372-332cb867f17a" />
+
 
 ### Notes
 
@@ -312,25 +325,29 @@ Restore the healthy configuration yourself and verify recovery using a second tr
 
 #### Screenshot 16 — Recovered Pods and ready Service backends
 
-Add your screenshot here.
+<img width="924" height="404" alt="Ass11-ss16" src="https://github.com/user-attachments/assets/ce0d5994-8a2d-4eee-ab80-c0a1df03e945" />
+
 
 ---
 
 #### Screenshot 17 — Recovered `/k8s-triage` analysis
 
-Add your screenshot here.
+<img width="934" height="360" alt="Ass11-ss17" src="https://github.com/user-attachments/assets/0ec5451e-2071-47cb-9bdd-eee175bb7bba" />
+
 
 ---
 
 #### Screenshot 18 — Reports directory showing failure and recovery reports
 
-Add your screenshot here.
+<img width="562" height="192" alt="Ass11-ss18" src="https://github.com/user-attachments/assets/a1ef707c-9725-4f34-93e8-013ed7055eab" />
+
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` with all required sections
 
-Add your screenshot here.
+<img width="929" height="460" alt="Ass11-ss19" src="https://github.com/user-attachments/assets/c8d2f3fc-f9b1-45c2-99c8-6ca25d1037d3" />
+
 
 ### Notes
 
