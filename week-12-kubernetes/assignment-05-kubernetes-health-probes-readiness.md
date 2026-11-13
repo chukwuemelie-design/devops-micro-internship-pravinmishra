@@ -32,7 +32,8 @@ Create and enter a dedicated directory for the readiness-probe lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/health-probes-readiness`
 
-Add your screenshot here.
+<img width="410" height="137" alt="Ass5-ss1" src="https://github.com/user-attachments/assets/e0af4f91-da70-4797-b994-cf8cd41aa59f" />
+
 
 ---
 
@@ -58,19 +59,22 @@ Create a baseline NGINX Deployment with two replicas and no readiness probe.
 
 #### Screenshot 2 — Completed `00-nginx-deploy-baseline.yaml` manifest
 
-Add your screenshot here.
+<img width="563" height="306" alt="Ass5-ss2" src="https://github.com/user-attachments/assets/ae2a4ef1-62b5-4a40-815d-1944f69a4f5e" />
+
 
 ---
 
 #### Screenshot 3 — Output showing a successful rollout and two running NGINX Pods
 
-Add your screenshot here.
+<img width="651" height="124" alt="Ass5-ss3" src="https://github.com/user-attachments/assets/be52cbbd-78ef-4d03-b433-b6f839b7e1bf" />
+
 
 ---
 
 #### Screenshot 4 — Relevant output from `kubectl describe deployment nginx-deployment`
 
-Add your screenshot here.
+<img width="872" height="217" alt="Ass5-ss4" src="https://github.com/user-attachments/assets/c83a4490-5662-4f62-a86a-85effa4f86c1" />
+
 
 ---
 
@@ -100,19 +104,22 @@ Add an HTTP readiness probe so Kubernetes checks whether each NGINX container is
 
 #### Screenshot 5 — Completed `01-nginx-deploy-readiness.yaml` manifest showing the readiness probe
 
-Add your screenshot here.
+<img width="554" height="374" alt="Ass5-ss5" src="https://github.com/user-attachments/assets/85f74e84-661b-4970-8b3c-84a692b928cd" />
+
 
 ---
 
 #### Screenshot 6 — Output of the successful rollout and ready Pods
 
-Add your screenshot here.
+<img width="676" height="80" alt="Ass5-ss6" src="https://github.com/user-attachments/assets/a0eaa154-1f7c-42a4-bdd0-887eb737f719" />
+
 
 ---
 
 #### Screenshot 7 — Pod description showing readiness conditions and readiness probe details
 
-Add your screenshot here.
+<img width="613" height="118" alt="Ass5-ss7" src="https://github.com/user-attachments/assets/be309b5a-3167-41af-963e-acea9a4555b9" />
+
 
 ---
 
@@ -146,25 +153,29 @@ Intentionally fail the readiness probe, observe the NotReady behavior, and then 
 
 #### Screenshot 8 — `02-nginx-readiness-broken.yaml` showing `/does-not-exist`
 
-Add your screenshot here.
+<img width="696" height="112" alt="Ass5-ss8" src="https://github.com/user-attachments/assets/68fe0657-27a3-4ae1-9d03-fa158ca64121" />
+
 
 ---
 
 #### Screenshot 9 — Output showing the rollout timeout or incomplete rollout
 
-Add your screenshot here.
+<img width="725" height="77" alt="Ass5-ss9" src="https://github.com/user-attachments/assets/9f19b331-c5d3-4654-8873-b2f828b23acb" />
+
 
 ---
 
 #### Screenshot 10 — Pod details showing `Ready: False` or readiness-probe failure events
 
-Add your screenshot here.
+<img width="764" height="394" alt="Ass5-ss10" src="https://github.com/user-attachments/assets/2dbd9bbc-7831-4f7d-b9a6-f032f7aaca42" />
+
 
 ---
 
 #### Screenshot 11 — Output showing successful rollout and ready Pods after the fix
 
-Add your screenshot here.
+<img width="658" height="91" alt="Ass5-ss11" src="https://github.com/user-attachments/assets/5170abae-8628-4ea4-8cb9-42518767c06b" />
+
 
 ---
 
@@ -198,37 +209,43 @@ Observe how readiness prevents a bad new Pod from replacing healthy Pods during 
 
 #### Screenshot 12 — Successful update command and rollout status
 
-Add your screenshot here.
+<img width="747" height="141" alt="Ass5-ss12" src="https://github.com/user-attachments/assets/0db19b44-d434-41a3-9e61-2a06519558c9" />
+
 
 ---
 
 #### Screenshot 13 — ReplicaSets and Pods after the successful rolling update
 
-Add your screenshot here.
+<img width="906" height="202" alt="Ass5-ss13" src="https://github.com/user-attachments/assets/f4a93b55-66c2-4af9-9658-460203324ad8" />
+
 
 ---
 
 #### Screenshot 14 — Completed `04-readiness-broken-patch.yaml`
 
-Add your screenshot here.
+<img width="580" height="248" alt="Ass5-ss14" src="https://github.com/user-attachments/assets/b10b8440-0b5c-4ab4-a315-987cfbd26554" />
+
 
 ---
 
 #### Screenshot 15 — Output showing the expected stalled rollout or timeout
 
-Add your screenshot here.
+<img width="737" height="89" alt="Ass5-ss15" src="https://github.com/user-attachments/assets/1ac26098-4f2d-46b9-82a2-56b143bd5453" />
+
 
 ---
 
 #### Screenshot 16 — Deployment or Pod output showing the effect of the broken readiness probe
 
-Add your screenshot here.
+<img width="641" height="188" alt="Ass5-ss16" src="https://github.com/user-attachments/assets/ae172639-908b-405e-bef3-7daa2e02caab" />
+
 
 ---
 
 #### Screenshot 17 — Successful rollout status after restoring the fixed configuration
 
-Add your screenshot here.
+<img width="692" height="227" alt="Ass5-ss17" src="https://github.com/user-attachments/assets/c792444b-b601-4bac-b7ca-8527cd2b1d84" />
+
 
 ---
 
