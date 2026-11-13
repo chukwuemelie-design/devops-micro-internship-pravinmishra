@@ -14,7 +14,7 @@ Configure a read-only Bash triage script for your Book Review App, connect it to
 
 ## Submission Details
 
-**Full Name:** Add your full name here.
+**Full Name:** Nebeolisa Chiemelie Kelvin
 
 **Kubernetes Platform:** Add your platform here.
 
@@ -42,13 +42,15 @@ Identify the actual application configuration and prove that the selected worklo
 
 #### Screenshot 1 — Healthy Pods and ready Service backends
 
-Add your screenshot here.
+<img width="908" height="395" alt="Ass11-ss1" src="https://github.com/user-attachments/assets/1566c198-b02b-413d-a124-b519bb9f9282" />
+
 
 ---
 
 #### Screenshot 2 — Workspace directory structure
 
-Add your screenshot here.
+<img width="776" height="130" alt="Ass11-ss2" src="https://github.com/user-attachments/assets/f09a0590-ef4f-4fce-9d77-dbfae24dd8f5" />
+
 
 ### Notes
 
@@ -76,7 +78,8 @@ Define the project configuration, incident workflow, and safety boundary for Cla
 
 #### Screenshot 3 — CLAUDE.md showing application configuration, workflow, safety rules, and output rules
 
-Add your screenshot here.
+
+
 
 ### Notes
 
@@ -104,7 +107,8 @@ Ask Claude Code to explain the five health checks before running the supplied sc
 
 #### Screenshot 4 — Claude Code showing the five-check read-only plan
 
-Add your screenshot here.
+
+
 
 ### Notes
 
