@@ -145,9 +145,9 @@ Week 13 → Final Project / Capstone
 | 07 | Azure Cloud | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/chukwuemelie-kelvin-nebeolisa_there-have-been-a-silent-battle-between-aws-activity-7496068703449473024-7hJC?|https://medium.com/@chukwuemelieoguejiofor/deploying-a-production-ready-react-app-on-an-azure-vm-with-nginx-1ccd01dc2554|
 | 08 | Terraform | ✅ Completed | ✅ Completed | — |https://medium.com/@chukwuemelieoguejiofor/automating-infrastructure-reflections-on-provisioning-my-first-azure-vm-with-terraform-2e3519b96503|
 | 09 | Ansible | ✅ Completed | ✅ Completed| — |https://medium.com/@chukwuemelieoguejiofor/building-production-grade-automation-reflections-on-setting-up-a-team-ready-ansible-workstation-d3f149cba5a2|
-| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | — |https://medium.com/@chukwuemelieoguejiofor/my-learning-journey-with-azure-devops-understanding-ci-cd-and-automation-483b63499dfa|
+| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | - |https://medium.com/@chukwuemelieoguejiofor/my-learning-journey-with-azure-devops-understanding-ci-cd-and-automation-483b63499dfa|
 | 11 | Docker | ✅ Completed | ✅ Completed | — |https://medium.com/@chukwuemelieoguejiofor/my-docker-learning-experience-understanding-containerization-in-devops-45638b64026f|
-| 12 | Kubernetes | ✅ Completed | ✅ Completed | — |https://medium.com/@chukwuemelieoguejiofor/my-kubernetes-learning-experience-container-orchestration-and-application-availability-334411101215|
+| 12 | Kubernetes | ✅ Completed | ✅ Completed | https://lnkd.in/p/dJPuQh5q |https://medium.com/@chukwuemelieoguejiofor/my-kubernetes-learning-experience-container-orchestration-and-application-availability-334411101215|
 | 13 | Final Project | ✅ Completed | ✅ Completed | — | — |
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
